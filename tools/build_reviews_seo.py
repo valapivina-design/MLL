@@ -612,6 +612,10 @@ def faqs(b: dict) -> list[tuple[str, str]]:
     else:
         items = [
             (
+                f"Is {n} a scam?",
+                f"Public complaint patterns linked to {n} often include stalled withdrawals, unexpected fee demands, or unreachable support. This page is not a court finding — it summarizes the public record so you can compare it with your own documents. If funds are stuck, keep every receipt and URL and ask for a confidential review before sending more money.",
+            ),
+            (
                 f"Is {n} a legit broker?",
                 f"Screen balances are not the same as a payout you control. {name_with_blurb_raw(n, blurb)}. Share the date and how you paid if you want a confidential consultation on next steps.",
             ),
