@@ -1033,7 +1033,10 @@ def page_html(b: dict, comments_db: dict) -> str:
 </body>
 </html>
 """
-    return html.replace("</body>", COMMENT_FORM_SCRIPT + "\n</body>", 1)
+    tawk = '<script src="/js/tawk-mll.js" defer></script>'
+    return html.replace(
+        "</body>", COMMENT_FORM_SCRIPT + "\n  " + tawk + "\n</body>", 1
+    )
 
 
 def main() -> None:
