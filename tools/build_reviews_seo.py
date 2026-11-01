@@ -2,8 +2,9 @@
 """Generate static, crawlable SEO brief pages for every broker review.
 
 Writes company-broker-index/reviews/<slug>.html in the standard Mike Levy Law
-brief layout (profile, risk meter, inception/reports timeline, writeup, FAQ,
-case CTA) with full title/meta/H1/JSON-LD so search engines index without JS.
+brief layout (profile, risk meter, inception/reports timeline, writeup,
+public comments, submit-comment form, FAQ, case CTA) with full title/meta/H1/
+JSON-LD so search engines index without JS.
 Interactive extras remain on review.html (canonical → these static briefs).
 
   python3 tools/build_reviews_seo.py
@@ -18,10 +19,42 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BROKERS_JS = ROOT / "company-broker-index" / "data" / "brokers.js"
+COMMENTS_JS = ROOT / "company-broker-index" / "data" / "comments.js"
 OUT_DIR = ROOT / "company-broker-index" / "reviews"
 SITE = "https://mikelevylaw.com"
 YEAR = date.today().year
 DATE_LABEL = date.today().strftime("%B %Y")
+FORMCARRY = "https://formcarry.com/s/vb0cjK_9y7T"
+
+COUNTRY_CODES = [
+    ("+1", "+1 US/CA"),
+    ("+44", "+44 UK"),
+    ("+61", "+61 AU"),
+    ("+64", "+64 NZ"),
+    ("+49", "+49 DE"),
+    ("+33", "+33 FR"),
+    ("+34", "+34 ES"),
+    ("+39", "+39 IT"),
+    ("+31", "+31 NL"),
+    ("+48", "+48 PL"),
+    ("+40", "+40 RO"),
+    ("+90", "+90 TR"),
+    ("+971", "+971 AE"),
+    ("+65", "+65 SG"),
+    ("+81", "+81 JP"),
+    ("+82", "+82 KR"),
+    ("+91", "+91 IN"),
+    ("+55", "+55 BR"),
+    ("+52", "+52 MX"),
+    ("+27", "+27 ZA"),
+    ("+234", "+234 NG"),
+    ("+353", "+353 IE"),
+    ("+46", "+46 SE"),
+    ("+47", "+47 NO"),
+    ("+41", "+41 CH"),
+    ("+852", "+852 HK"),
+    ("+966", "+966 SA"),
+]
 
 
 def as_of_label(b: dict) -> str:
@@ -175,6 +208,218 @@ def load_brokers() -> list[dict]:
     if not m:
         raise SystemExit("Could not parse SBL_BROKERS")
     return json.loads(m.group(1))
+
+
+def load_comments() -> dict[str, list]:
+    text = COMMENTS_JS.read_text(encoding="utf-8")
+    m = re.search(r"window\.SBL_COMMENTS\s*=\s*(\{.*\})\s*;?\s*$", text, re.S)
+    if not m:
+        raise SystemExit("Could not parse SBL_COMMENTS")
+    data = json.loads(m.group(1))
+    return data if isinstance(data, dict) else {}
+
+
+def format_comment_date(iso: str) -> str:
+    raw = (iso or "")[:10]
+    try:
+        return date.fromisoformat(raw).strftime("%d %b %Y").lstrip("0")
+    except ValueError:
+        return raw or ""
+
+
+def is_trustpilot_only(c: dict) -> bool:
+    name = (c.get("name") or "").lower()
+    title = (c.get("title") or "").lower()
+    if "trustpilot" in name or "trustpilot" in title:
+        return True
+    if c.get("source") == "trustpilot" and not c.get("askHelp"):
+        return True
+    return False
+
+
+def comments_cards_html(items: list, contact: str) -> str:
+    visible = [c for c in items if isinstance(c, dict) and not is_trustpilot_only(c)]
+    if not visible:
+        return '<p class="reviews-empty-soft">No public comments published for this profile yet.</p>'
+    parts: list[str] = []
+    for c in visible:
+        lang = escape(str(c.get("lang") or "en"))
+        dt = escape(str(c.get("date") or "")[:10])
+        parts.append(
+            f'<article class="review-card" lang="{lang}">'
+            f'<div class="review-meta"><time datetime="{dt}">{escape(format_comment_date(dt))}</time></div>'
+            f'<h3 class="review-title">{escape(c.get("title") or "")}</h3>'
+            f'<p class="review-body">{escape(c.get("text") or "")}</p>'
+            f'<div class="review-author">'
+            f'<div class="avatar">{escape(c.get("initials") or "?")}</div>'
+            f'<div class="review-author-text"><strong>{escape(c.get("name") or "")}</strong>'
+            f'<span>{escape(c.get("country") or "")}</span></div></div>'
+        )
+        support = c.get("support")
+        if isinstance(support, dict) and support.get("text"):
+            cta = escape(support.get("ctaLabel") or "Contact us for a consultation →")
+            parts.append(
+                f'<div class="firm-reply" lang="{lang}">'
+                f'<div class="firm-reply-head">'
+                f'<div class="avatar firm">ML</div>'
+                f"<div><strong>Mike Levy Law</strong><span>Support</span></div>"
+                f"</div>"
+                f"<p>{escape(support.get('text') or '')}</p>"
+                f'<a href="{contact}">{cta}</a></div>'
+            )
+        parts.append("</article>")
+    return "\n".join(parts)
+
+
+def comment_form_html(n: str, slug: str, page_url: str) -> str:
+    opts = "\n".join(
+        f'                <option value="{escape(code)}">{escape(label)}</option>'
+        for code, label in COUNTRY_CODES
+    )
+    return f"""
+      <section class="comment-form-block" id="submit-for-review" aria-labelledby="comment-form-heading">
+        <h2 id="comment-form-heading">Submit for review</h2>
+        <p class="comment-form-lead">
+          Share your experience with this company. <strong>All comments are moderated</strong> —
+          submissions are reviewed before anything is published live. Email and phone are used only
+          to follow up if needed and are <strong>never published</strong>.
+        </p>
+        <form
+          class="comment-form"
+          id="broker-comment-form"
+          action="{FORMCARRY}"
+          method="POST"
+          novalidate
+        >
+          <input type="hidden" name="form_type" value="comment" />
+          <input type="hidden" name="lead_source" value="broker-review-comment" />
+          <input type="hidden" name="company" id="comment-company" value="{escape(n)}" />
+          <input type="hidden" name="slug" id="comment-slug" value="{escape(slug)}" />
+          <input type="hidden" name="page_url" id="comment-page-url" value="{escape(page_url)}" />
+          <div class="hp" aria-hidden="true">
+            <label for="comment-gotcha">Leave blank</label>
+            <input type="text" id="comment-gotcha" name="_gotcha" tabindex="-1" autocomplete="off" />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="comment-name">Name</label>
+              <input type="text" id="comment-name" name="name" required autocomplete="name" placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label for="comment-email">Email <span class="hint">(not published)</span></label>
+              <input type="email" id="comment-email" name="email" required autocomplete="email" placeholder="you@example.com" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="comment-phone">Phone <span class="hint">(not published)</span></label>
+            <div class="phone-row">
+              <select id="comment-country-code" name="country_code" required aria-label="Country code">
+{opts}
+              </select>
+              <input type="tel" id="comment-phone" name="phone" required autocomplete="tel-national" placeholder="Phone number" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="comment-subject">Subject</label>
+            <input type="text" id="comment-subject" name="subject" required maxlength="160" placeholder="Brief subject line" />
+          </div>
+          <div class="field">
+            <label for="comment-body">Comment</label>
+            <textarea id="comment-body" name="comment" required maxlength="4000" placeholder="Describe what happened — include the domain you used if you can."></textarea>
+          </div>
+          <div class="form-actions">
+            <p class="privacy-note">
+              By submitting, you agree we may contact you about this report. We decide which comments go live after review.
+              See our <a href="../../legal/privacy-policy.html">Privacy Policy</a>.
+            </p>
+            <button type="submit" id="comment-submit">Submit comment</button>
+          </div>
+          <p class="comment-form-status" id="comment-form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>"""
+
+
+def reviews_section_html(b: dict, comments_db: dict, contact: str, page_url: str) -> str:
+    n = b.get("name") or b.get("slug") or "Company"
+    slug = b.get("slug") or ""
+    items = comments_db.get(slug) or []
+    if not isinstance(items, list):
+        items = []
+    cards = comments_cards_html(items, contact)
+    form = comment_form_html(n, slug, page_url)
+    return f"""
+    <div class="reviews-block">
+      <div class="reviews-head">
+        <div class="section-kicker">Public record</div>
+        <h2>Reviews &amp; What People Are Saying</h2>
+        <p class="reviews-lead">
+          Comments from people describing problems with this entity. Our team may reply when the
+          reported loss appears material and a confidential consultation could help.
+          <a href="#submit-for-review">Submit for review</a> — all new submissions are moderated before publishing.
+        </p>
+      </div>
+      <div class="reviews-grid" id="reviews-grid">
+{cards}
+      </div>
+      <div class="intake-stack">
+{form}
+      <aside class="case-review-panel" aria-labelledby="case-review-heading">
+        <h3 id="case-review-heading">Need a case review?</h3>
+        <a class="cta-btn" id="request-case-review" href="{contact}">Request a case review</a>
+      </aside>
+      </div>
+    </div>"""
+
+
+COMMENT_FORM_SCRIPT = """
+<script>
+(function () {
+  var form = document.getElementById("broker-comment-form");
+  if (!form) return;
+  var status = document.getElementById("comment-form-status");
+  var btn = document.getElementById("comment-submit");
+  var companyEl = document.getElementById("comment-company");
+  var slugEl = document.getElementById("comment-slug");
+  var urlEl = document.getElementById("comment-page-url");
+  var companyName = companyEl ? companyEl.value : "";
+  var companySlug = slugEl ? slugEl.value : "";
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (status) { status.textContent = ""; status.className = "comment-form-status"; }
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    if (btn) btn.disabled = true;
+    if (status) status.textContent = "Sending…";
+    fetch(form.action, { method: "POST", headers: { Accept: "application/json" }, body: new FormData(form) })
+      .then(function (res) { return res.json().then(function (data) { return { ok: res.ok, data: data }; }); })
+      .then(function (result) {
+        var data = result.data || {};
+        if (result.ok && (data.code === 200 || data.status === "success")) {
+          if (status) {
+            status.className = "comment-form-status ok";
+            status.textContent = "Thank you. Your comment was received and will be moderated before it appears live.";
+          }
+          form.reset();
+          if (form.elements.form_type) form.elements.form_type.value = "comment";
+          if (form.elements.lead_source) form.elements.lead_source.value = "broker-review-comment";
+          if (companyEl) companyEl.value = companyName;
+          if (slugEl) slugEl.value = companySlug;
+          if (urlEl) urlEl.value = window.location.href;
+        } else if (status) {
+          status.className = "comment-form-status err";
+          status.textContent = (data && data.message) || "We could not submit that comment. Please try again in a moment.";
+        }
+      })
+      .catch(function () {
+        if (status) {
+          status.className = "comment-form-status err";
+          status.textContent = "No response from the form service. Please try again.";
+        }
+      })
+      .finally(function () { if (btn) btn.disabled = false; });
+  });
+})();
+</script>
+"""
 
 
 def scrub_indexed(s: str) -> str:
@@ -456,7 +701,7 @@ def writeup_html(b: dict) -> str:
     return "\n".join(parts)
 
 
-def page_html(b: dict) -> str:
+def page_html(b: dict, comments_db: dict) -> str:
     n = b.get("name") or b.get("slug") or "Company"
     slug = b.get("slug") or ""
     soft = is_soft(b)
@@ -621,7 +866,8 @@ def page_html(b: dict) -> str:
         f"&amp;company={escape(n)}&amp;slug={escape(slug)}"
         f"&amp;matter=Broker+%2F+Investment+Platform+Dispute#contact"
     )
-    return f"""<!DOCTYPE html>
+    reviews_html = reviews_section_html(b, comments_db, contact, canon)
+    html = f"""<!DOCTYPE html>
 <html lang="en-US">
 <head>
   <meta charset="UTF-8" />
@@ -724,7 +970,7 @@ def page_html(b: dict) -> str:
 {writeup_html(b)}
       </article>
     </div>
-
+{reviews_html}
     <section class="faq-block" aria-labelledby="faq-heading">
       <div class="section-kicker">Guidance</div>
       <h2 id="faq-heading">Frequently asked questions</h2>
@@ -733,11 +979,6 @@ def page_html(b: dict) -> str:
 {faq_html}
       </div>
     </section>
-
-    <aside class="case-review-panel" style="max-width:100%;margin:0 0 40px">
-      <h3>Need a case review?</h3>
-      <a class="cta-btn" href="{contact}">Request a case review</a>
-    </aside>
 
     <div class="closing">
       <p class="summary"><strong>Summary:</strong> {escape(n)} — {escape(blurb)} This page is informational and does not constitute a finding of liability.{f" Profile last updated {escape(updated_fmt)}." if updated_fmt else ""}</p>
@@ -792,10 +1033,12 @@ def page_html(b: dict) -> str:
 </body>
 </html>
 """
+    return html.replace("</body>", COMMENT_FORM_SCRIPT + "\n</body>", 1)
 
 
 def main() -> None:
     brokers = load_brokers()
+    comments_db = load_comments()
     if OUT_DIR.exists():
         for old in OUT_DIR.glob("*.html"):
             old.unlink()
@@ -810,7 +1053,7 @@ def main() -> None:
         safe = re.sub(r"[^a-zA-Z0-9._-]+", "-", slug).strip("-")
         if safe != slug:
             continue
-        (OUT_DIR / f"{slug}.html").write_text(page_html(b), encoding="utf-8")
+        (OUT_DIR / f"{slug}.html").write_text(page_html(b, comments_db), encoding="utf-8")
         written += 1
     index = f"""<!DOCTYPE html>
 <html lang="en-US">
