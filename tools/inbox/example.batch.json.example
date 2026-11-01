@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "example-broker-review",
+    "name": "Example Broker",
+    "tier": "scam",
+    "blurb": "a sample inbox entry — replace or delete this file before production merges.",
+    "domain": "example-broker.test",
+    "aliases": ["Example Capital"],
+    "officialDomain": "example-broker.test",
+    "clones": [
+      {
+        "domain": "example-broker-login.test",
+        "name": "Example login lookalike"
+      }
+    ]
+  }
+]

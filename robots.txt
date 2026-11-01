@@ -1,0 +1,8 @@
+# Mike Levy Law — crawl rules
+User-agent: *
+Allow: /
+
+# Canonical review URLs live under /company-broker-index/reviews/<slug>.html
+# (full HTML + FAQ/JSON-LD). The interactive shell is review.html?company=.
+
+Sitemap: https://mikelevylaw.com/sitemap.xml
