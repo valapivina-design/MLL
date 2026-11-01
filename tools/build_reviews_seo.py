@@ -276,6 +276,7 @@ def comment_form_html(n: str, slug: str, page_url: str) -> str:
         f'                <option value="{escape(code)}">{escape(label)}</option>'
         for code, label in COUNTRY_CODES
     )
+    blank = '                <option value="" selected disabled>Country code</option>'
     return f"""
       <section class="comment-form-block" id="submit-for-review" aria-labelledby="comment-form-heading">
         <h2 id="comment-form-heading">Submit for review</h2>
@@ -314,6 +315,7 @@ def comment_form_html(n: str, slug: str, page_url: str) -> str:
             <label for="comment-phone">Phone <span class="hint">(not published)</span></label>
             <div class="phone-row">
               <select id="comment-country-code" name="country_code" required aria-label="Country code">
+{blank}
 {opts}
               </select>
               <input type="tel" id="comment-phone" name="phone" required autocomplete="tel-national" placeholder="Phone number" />
