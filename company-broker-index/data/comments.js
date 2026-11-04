@@ -239185,5 +239185,213 @@ window.SBL_COMMENTS = {
       "askHelp": true,
       "importantLoss": false
     }
+  ],
+  "almost-funded-review": [
+    {
+      "name": "Chloe Silva",
+      "initials": "CS",
+      "country": "Ireland",
+      "date": "2026-10-01",
+      "title": "Is this the genuine firm? — Almost Funded",
+      "text": "I am trying to confirm I am dealing with the genuine firm, not a lookalike. Who is the right contact for a confidential check? The complaint path (firm vs regulator vs counsel) is unclear to me. The name on my files is Almost Funded.",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "atmos-traders-review": [
+    {
+      "name": "Kenji Rossi",
+      "initials": "KR",
+      "country": "New Zealand",
+      "date": "2026-10-21",
+      "title": "Unsure how to escalate this (Atmos Traders)",
+      "text": "I still have statements and chat exports from a recovery chat. Who is the right contact for a confidential check? I want to avoid sending more funds to the wrong place. Presented as Atmos Traders.",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "audacity-capital-review": [
+    {
+      "name": "Mei Diaz",
+      "initials": "MD",
+      "country": "Italy",
+      "date": "2026-10-06",
+      "title": "audacity.capital: Want paperwork reviewed quietly",
+      "text": "Public notes are mixed and I want a quiet read on what I collected. Who is the right contact for a confidential check? I am not accusing anyone yet — I need the paperwork sorted first. Domain on file: audacity.capital. Profile concerned: Audacity Capital.",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "axi-select-review": [
+    {
+      "name": "Marta Fischer",
+      "initials": "MF",
+      "country": "Brazil",
+      "date": "2026-09-09",
+      "title": "Want paperwork reviewed quietly (axi.com)",
+      "text": "I still have statements and chat exports from an account manager on WhatsApp. I want to avoid sending more funds to the wrong place. Presented as Axi Select. Can someone advise the sensible next step?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "blue-guardian-review": [
+    {
+      "name": "Jonas Al Farsi",
+      "initials": "JA",
+      "country": "Romania",
+      "date": "2026-09-27",
+      "title": "Want paperwork reviewed quietly (blueguardian.com)",
+      "text": "Public notes are mixed and I want a quiet read on what I collected. The complaint path (firm vs regulator vs counsel) is unclear to me. Presented as Blue Guardian. Where should I send the domain I actually used?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "e8-markets-review": [
+    {
+      "name": "Isabella Fernández",
+      "initials": "IF",
+      "country": "Singapore",
+      "date": "2026-09-08",
+      "title": "Unsure how to escalate this — e8markets.com",
+      "text": "I am trying to confirm I am dealing with the genuine firm, not a lookalike. Presented as E8 Markets. I want to avoid sending more funds to the wrong place. Is a short consultation appropriate before I escalate?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "fintokei-review": [
+    {
+      "name": "Nils Chen",
+      "initials": "NC",
+      "country": "Brazil",
+      "date": "2026-09-29",
+      "title": "Looking for next-step advice (fintokei.com)",
+      "text": "Public notes are mixed and I want a quiet read on what I collected. Is a short consultation appropriate before I escalate? I am not accusing anyone yet — I need the paperwork sorted first. Profile concerned: Fintokei.",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "getleveraged-review": [
+    {
+      "name": "Petra Vo",
+      "initials": "PV",
+      "country": "Australia",
+      "date": "2026-09-02",
+      "title": "Statements ready — who reviews them? — getleveraged.com",
+      "text": "I am trying to confirm I am dealing with the genuine firm, not a lookalike. Where should I send the domain I actually used? The complaint path (firm vs regulator vs counsel) is unclear to me. Domain on file: getleveraged.com. Profile concerned: Get Leveraged.",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "ment-funding-review": [
+    {
+      "name": "Bruno Brennan",
+      "initials": "BB",
+      "country": "Singapore",
+      "date": "2026-09-15",
+      "title": "Ment Funding: Unsure how to escalate this",
+      "text": "I used an Instagram lead form and want the domain/licence claim checked carefully. Where should I send the domain I actually used? I am not accusing anyone yet — I need the paperwork sorted first. The name on my files is Ment Funding.",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "nordic-funder-review": [
+    {
+      "name": "Mateo Cohen",
+      "initials": "MC",
+      "country": "Sweden",
+      "date": "2026-10-06",
+      "title": "Looking for next-step advice — nordicfunder.com",
+      "text": "I still have statements and chat exports from a Telegram desk. Screenshots and references are organized if someone will review them. Presented as Nordic Funder. Is a short consultation appropriate before I escalate?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "rzr-funded-review": [
+    {
+      "name": "Owen Nowak",
+      "initials": "ON",
+      "country": "Singapore",
+      "date": "2026-09-17",
+      "title": "Need a real-vs-clone check — rzrfunded.com",
+      "text": "I still have statements and chat exports from a cold-call broker desk. Presented as RZR Funded. Screenshots and references are organized if someone will review them. Is a short consultation appropriate before I escalate?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "the-trading-pit-review": [
+    {
+      "name": "Callum Ibrahim",
+      "initials": "CI",
+      "country": "Ireland",
+      "date": "2026-10-01",
+      "title": "Need help reading the licence claim — thetradingpit.com",
+      "text": "I want to avoid sending more funds to the wrong place. I used a recovery chat and want the domain/licence claim checked carefully. Profile concerned: The Trading Pit. Where should I send the domain I actually used?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "tradeify-fx-review": [
+    {
+      "name": "Luis Popescu",
+      "initials": "LP",
+      "country": "United Arab Emirates",
+      "date": "2026-09-20",
+      "title": "Need help reading the licence claim (Tradeify FX)",
+      "text": "The complaint path (firm vs regulator vs counsel) is unclear to me. I used a Telegram desk and want the domain/licence claim checked carefully. Domain on file: Tradeify FX. Is a short consultation appropriate before I escalate?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "tradeorithem-review": [
+    {
+      "name": "Camille Schmidt",
+      "initials": "CS",
+      "country": "Japan",
+      "date": "2026-09-14",
+      "title": "Tradeorithem: Is this the genuine firm?",
+      "text": "I am trying to confirm I am dealing with the genuine firm, not a lookalike. The complaint path (firm vs regulator vs counsel) is unclear to me. Presented as Tradeorithem. Who is the right contact for a confidential check?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "upcomers-review": [
+    {
+      "name": "Ana Rossi",
+      "initials": "AR",
+      "country": "Brazil",
+      "date": "2026-10-12",
+      "title": "Statements ready — who reviews them? (upcomers.com)",
+      "text": "I am trying to confirm I am dealing with the genuine firm, not a lookalike. Screenshots and references are organized if someone will review them. Profile concerned: Upcomers. Can someone advise the sensible next step?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "wsfunded-review": [
+    {
+      "name": "Viktor Rahman",
+      "initials": "VR",
+      "country": "Netherlands",
+      "date": "2026-09-13",
+      "title": "Statements ready — who reviews them? (wsfunded.com)",
+      "text": "Screenshots and references are organized if someone will review them. Public notes are mixed and I want a quiet read on what I collected. Domain on file: wsfunded.com. Where should I send the domain I actually used?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
   ]
 };

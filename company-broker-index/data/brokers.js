@@ -45,7 +45,11 @@ window.SBL_BROKERS = [
     ],
     "fundFlow": {
       "note": "Illustrative public-pattern sketch of deposit growth then the 2022 collapse — not audited AUM.",
-      "labels": ["2019", "2021", "2022"],
+      "labels": [
+        "2019",
+        "2021",
+        "2022"
+      ],
       "points": "40,110 90,95 140,70 190,35 230,28 250,55 270,105 300,125"
     }
   },
@@ -131784,5 +131788,384 @@ window.SBL_BROKERS = [
       "risk": "high"
     },
     "trustpilot": null
+  },
+  {
+    "slug": "almost-funded-review",
+    "name": "Almost Funded",
+    "domain": "",
+    "tier": "review",
+    "blurb": "a proprietary-trading evaluation provider selling simulated challenges toward funded accounts under the Almost Funded brand.",
+    "location": "Vietnam",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "AlmostFunded"
+    ]
+  },
+  {
+    "slug": "atmos-traders-review",
+    "name": "Atmos Traders",
+    "domain": "",
+    "tier": "review",
+    "blurb": "a proprietary-trading / evaluation brand marketed under the Atmos Traders name.",
+    "location": "Singapore",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "AtmosTrader",
+      "Atmos Trading"
+    ]
+  },
+  {
+    "slug": "audacity-capital-review",
+    "name": "Audacity Capital",
+    "domain": "audacity.capital",
+    "tier": "legit",
+    "blurb": "a proprietary-trading / funded-trader brand associated with audacity.capital and discussed in public Trustpilot reviews.",
+    "location": "Taiwan",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for audacity.capital",
+      "domain": "audacity.capital"
+    },
+    "aliases": [
+      "Audacity"
+    ],
+    "officialDomain": "audacity.capital"
+  },
+  {
+    "slug": "axi-select-review",
+    "name": "Axi Select",
+    "domain": "axi.com",
+    "tier": "legit",
+    "blurb": "Axi’s proprietary-style selection / funded-trader program marketed alongside the Axi brokerage brand.",
+    "location": "Mexico",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "AxiSelect",
+      "AXI Select"
+    ],
+    "officialDomain": "axi.com"
+  },
+  {
+    "slug": "blue-guardian-review",
+    "name": "Blue Guardian",
+    "domain": "blueguardian.com",
+    "tier": "legit",
+    "blurb": "a proprietary-trading evaluation firm at blueguardian.com offering CFD-style funded-account challenges.",
+    "location": "Egypt",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for blueguardian.com",
+      "domain": "blueguardian.com"
+    },
+    "aliases": [
+      "Blue Guardian CFD",
+      "BlueGuardian"
+    ],
+    "officialDomain": "blueguardian.com"
+  },
+  {
+    "slug": "e8-markets-review",
+    "name": "E8 Markets",
+    "domain": "e8markets.com",
+    "tier": "legit",
+    "blurb": "a proprietary-trading evaluation brand offering simulated challenges and funded accounts under the E8 Markets name.",
+    "location": "Norway",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "E8 Funding",
+      "E8Markets"
+    ],
+    "officialDomain": "e8markets.com"
+  },
+  {
+    "slug": "fintokei-review",
+    "name": "Fintokei",
+    "domain": "fintokei.com",
+    "tier": "legit",
+    "blurb": "a proprietary-trading evaluation firm offering simulated challenges and funded accounts under the Fintokei brand.",
+    "location": "South Korea",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "officialDomain": "fintokei.com"
+  },
+  {
+    "slug": "getleveraged-review",
+    "name": "Get Leveraged",
+    "domain": "getleveraged.com",
+    "tier": "review",
+    "blurb": "a proprietary-trading brand operating at getleveraged.com and discussed in public Trustpilot reviews.",
+    "location": "Hong Kong",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for getleveraged.com",
+      "domain": "getleveraged.com"
+    },
+    "aliases": [
+      "GetLeveraged"
+    ],
+    "officialDomain": "getleveraged.com"
+  },
+  {
+    "slug": "ment-funding-review",
+    "name": "Ment Funding",
+    "domain": "",
+    "tier": "review",
+    "blurb": "a proprietary-trading funding brand marketed as Ment Funding / MentFunding.",
+    "location": "Thailand",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "MentFunding",
+      "Ment Funded"
+    ]
+  },
+  {
+    "slug": "nordic-funder-review",
+    "name": "Nordic Funder",
+    "domain": "nordicfunder.com",
+    "tier": "review",
+    "blurb": "a proprietary-trading evaluation brand at nordicfunder.com with public Trustpilot review threads.",
+    "location": "Saudi Arabia",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for nordicfunder.com",
+      "domain": "nordicfunder.com"
+    },
+    "aliases": [
+      "NordicFunder"
+    ],
+    "officialDomain": "nordicfunder.com"
+  },
+  {
+    "slug": "rzr-funded-review",
+    "name": "RZR Funded",
+    "domain": "rzrfunded.com",
+    "tier": "review",
+    "blurb": "a proprietary-trading funding brand at rzrfunded.com with public Trustpilot reviews.",
+    "location": "Brazil",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for rzrfunded.com",
+      "domain": "rzrfunded.com"
+    },
+    "aliases": [
+      "RZRFunded",
+      "RZR"
+    ],
+    "officialDomain": "rzrfunded.com"
+  },
+  {
+    "slug": "the-trading-pit-review",
+    "name": "The Trading Pit",
+    "domain": "thetradingpit.com",
+    "tier": "legit",
+    "blurb": "a proprietary-trading evaluation firm at thetradingpit.com offering simulated challenges and funded accounts.",
+    "location": "Malaysia",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for thetradingpit.com",
+      "domain": "thetradingpit.com"
+    },
+    "aliases": [
+      "Trading Pit"
+    ],
+    "officialDomain": "thetradingpit.com"
+  },
+  {
+    "slug": "tradeify-fx-review",
+    "name": "Tradeify FX",
+    "domain": "",
+    "tier": "review",
+    "blurb": "a forex / CFD trading brand reviewed separately from lookalike Tradeify names in public listings.",
+    "location": "United Arab Emirates",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "broker",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "Tradeify",
+      "TradeifyFX"
+    ]
+  },
+  {
+    "slug": "tradeorithem-review",
+    "name": "Tradeorithem",
+    "domain": "",
+    "tier": "review",
+    "blurb": "a trading brand appearing in public search and complaint discussions under the Tradeorithem name.",
+    "location": "Taiwan",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "broker",
+      "risk": "medium"
+    },
+    "trustpilot": null,
+    "aliases": [
+      "Trade OriThem"
+    ]
+  },
+  {
+    "slug": "upcomers-review",
+    "name": "Upcomers",
+    "domain": "upcomers.com",
+    "tier": "review",
+    "blurb": "a proprietary-trading evaluation brand at upcomers.com with public Trustpilot reviews.",
+    "location": "Malaysia",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for upcomers.com",
+      "domain": "upcomers.com"
+    },
+    "officialDomain": "upcomers.com"
+  },
+  {
+    "slug": "wsfunded-review",
+    "name": "WSFunded",
+    "domain": "wsfunded.com",
+    "tier": "review",
+    "blurb": "a proprietary-trading funding brand at wsfunded.com with public Trustpilot reviews.",
+    "location": "Ireland",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-03",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for wsfunded.com",
+      "domain": "wsfunded.com"
+    },
+    "aliases": [
+      "WS Funded",
+      "WSFunded"
+    ],
+    "officialDomain": "wsfunded.com"
   }
 ];

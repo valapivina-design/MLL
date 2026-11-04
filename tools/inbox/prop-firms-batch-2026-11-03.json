@@ -1,0 +1,325 @@
+[
+  {
+    "slug": "e8-markets-review",
+    "name": "E8 Markets",
+    "domain": "e8markets.com",
+    "officialDomain": "e8markets.com",
+    "aliases": [
+      "E8 Funding",
+      "E8Markets"
+    ],
+    "tier": "legit",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation brand offering simulated challenges and funded accounts under the E8 Markets name.",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "axi-select-review",
+    "name": "Axi Select",
+    "domain": "axi.com",
+    "officialDomain": "axi.com",
+    "aliases": [
+      "AxiSelect",
+      "AXI Select"
+    ],
+    "tier": "legit",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "Axi\u2019s proprietary-style selection / funded-trader program marketed alongside the Axi brokerage brand.",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "tradeorithem-review",
+    "name": "Tradeorithem",
+    "domain": "",
+    "aliases": [
+      "Trade OriThem"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a trading brand appearing in public search and complaint discussions under the Tradeorithem name.",
+    "tags": {
+      "product": "broker",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "atmos-traders-review",
+    "name": "Atmos Traders",
+    "domain": "",
+    "aliases": [
+      "AtmosTrader",
+      "Atmos Trading"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading / evaluation brand marketed under the Atmos Traders name.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "almost-funded-review",
+    "name": "Almost Funded",
+    "domain": "",
+    "aliases": [
+      "AlmostFunded"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation provider selling simulated challenges toward funded accounts under the Almost Funded brand.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "tradeify-fx-review",
+    "name": "Tradeify FX",
+    "domain": "",
+    "aliases": [
+      "Tradeify",
+      "TradeifyFX"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a forex / CFD trading brand reviewed separately from lookalike Tradeify names in public listings.",
+    "tags": {
+      "product": "broker",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "ment-funding-review",
+    "name": "Ment Funding",
+    "domain": "",
+    "aliases": [
+      "MentFunding",
+      "Ment Funded"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading funding brand marketed as Ment Funding / MentFunding.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "fintokei-review",
+    "name": "Fintokei",
+    "domain": "fintokei.com",
+    "officialDomain": "fintokei.com",
+    "tier": "legit",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation firm offering simulated challenges and funded accounts under the Fintokei brand.",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "getleveraged-review",
+    "name": "Get Leveraged",
+    "domain": "getleveraged.com",
+    "officialDomain": "getleveraged.com",
+    "aliases": [
+      "GetLeveraged"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading brand operating at getleveraged.com and discussed in public Trustpilot reviews.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for getleveraged.com",
+      "domain": "getleveraged.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "nordic-funder-review",
+    "name": "Nordic Funder",
+    "domain": "nordicfunder.com",
+    "officialDomain": "nordicfunder.com",
+    "aliases": [
+      "NordicFunder"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation brand at nordicfunder.com with public Trustpilot review threads.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for nordicfunder.com",
+      "domain": "nordicfunder.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "wsfunded-review",
+    "name": "WSFunded",
+    "domain": "wsfunded.com",
+    "officialDomain": "wsfunded.com",
+    "aliases": [
+      "WS Funded",
+      "WSFunded"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading funding brand at wsfunded.com with public Trustpilot reviews.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for wsfunded.com",
+      "domain": "wsfunded.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "the-trading-pit-review",
+    "name": "The Trading Pit",
+    "domain": "thetradingpit.com",
+    "officialDomain": "thetradingpit.com",
+    "aliases": [
+      "Trading Pit"
+    ],
+    "tier": "legit",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation firm at thetradingpit.com offering simulated challenges and funded accounts.",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for thetradingpit.com",
+      "domain": "thetradingpit.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "upcomers-review",
+    "name": "Upcomers",
+    "domain": "upcomers.com",
+    "officialDomain": "upcomers.com",
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation brand at upcomers.com with public Trustpilot reviews.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for upcomers.com",
+      "domain": "upcomers.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "blue-guardian-review",
+    "name": "Blue Guardian",
+    "domain": "blueguardian.com",
+    "officialDomain": "blueguardian.com",
+    "aliases": [
+      "Blue Guardian CFD",
+      "BlueGuardian"
+    ],
+    "tier": "legit",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading evaluation firm at blueguardian.com offering CFD-style funded-account challenges.",
+    "tags": {
+      "product": "prop-firm",
+      "assetClass": "forex-cfd",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for blueguardian.com",
+      "domain": "blueguardian.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "rzr-funded-review",
+    "name": "RZR Funded",
+    "domain": "rzrfunded.com",
+    "officialDomain": "rzrfunded.com",
+    "aliases": [
+      "RZRFunded",
+      "RZR"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading funding brand at rzrfunded.com with public Trustpilot reviews.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for rzrfunded.com",
+      "domain": "rzrfunded.com"
+    },
+    "updated": "2026-11-03"
+  },
+  {
+    "slug": "audacity-capital-review",
+    "name": "Audacity Capital",
+    "domain": "audacity.capital",
+    "officialDomain": "audacity.capital",
+    "aliases": [
+      "Audacity"
+    ],
+    "tier": "legit",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading / funded-trader brand associated with audacity.capital and discussed in public Trustpilot reviews.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for audacity.capital",
+      "domain": "audacity.capital"
+    },
+    "updated": "2026-11-03"
+  }
+]
