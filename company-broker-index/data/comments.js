@@ -239393,5 +239393,31 @@ window.SBL_COMMENTS = {
       "askHelp": true,
       "importantLoss": false
     }
+  ],
+  "diversyfund-review": [
+    {
+      "name": "Noah Fernández",
+      "initials": "NF",
+      "country": "Romania",
+      "date": "2026-10-15",
+      "title": "diversyfund.com: Want paperwork reviewed quietly",
+      "text": "I still have statements and chat exports from a cold-call broker desk. Screenshots and references are organized if someone will review them. Profile concerned: DiversyFund. Where should I send the domain I actually used?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
+  ],
+  "sure-leverage-funding-review": [
+    {
+      "name": "Pierre Brennan",
+      "initials": "PB",
+      "country": "Brazil",
+      "date": "2026-09-28",
+      "title": "Need a real-vs-clone check — sureleveragefunding.com",
+      "text": "Public notes are mixed and I want a quiet read on what I collected. Presented as Sure Leverage Funding. The complaint path (firm vs regulator vs counsel) is unclear to me. Where should I send the domain I actually used?",
+      "lang": "en",
+      "askHelp": true,
+      "importantLoss": false
+    }
   ]
 };

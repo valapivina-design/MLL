@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "sure-leverage-funding-review",
+    "name": "Sure Leverage Funding",
+    "domain": "sureleveragefunding.com",
+    "officialDomain": "sureleveragefunding.com",
+    "aliases": [
+      "SureLeverage Funding",
+      "Sure Leverage",
+      "trade.sureleveragefunding.com"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a proprietary-trading funding brand associated with sureleveragefunding.com / trade.sureleveragefunding.com and discussed in public Trustpilot reviews.",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for trade.sureleveragefunding.com",
+      "domain": "trade.sureleveragefunding.com"
+    },
+    "updated": "2026-11-04"
+  },
+  {
+    "slug": "diversyfund-review",
+    "name": "DiversyFund",
+    "domain": "diversyfund.com",
+    "officialDomain": "diversyfund.com",
+    "aliases": [
+      "Diversy Fund",
+      "Diversyfund"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "a real-estate crowdfunding / investment brand at diversyfund.com with public Trustpilot reviews.",
+    "tags": {
+      "product": "investment-platform",
+      "assetClass": "real-estate",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for diversyfund.com",
+      "domain": "diversyfund.com"
+    },
+    "updated": "2026-11-04"
+  },
+  {
+    "slug": "alinea-invest-review",
+    "name": "Alinea Invest",
+    "domain": "alinea-invest.com",
+    "officialDomain": "www.alinea-invest.com",
+    "aliases": [
+      "Alinea",
+      "AlineaInvest"
+    ],
+    "tier": "review",
+    "status": "review",
+    "risk": "medium",
+    "blurb": "an investment brand associated with alinea-invest.com / www.alinea-invest.com and discussed in public Trustpilot reviews.",
+    "tags": {
+      "product": "investment-platform",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for www.alinea-invest.com",
+      "domain": "www.alinea-invest.com"
+    },
+    "updated": "2026-11-04"
+  }
+]

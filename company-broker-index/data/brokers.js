@@ -1415,24 +1415,32 @@ window.SBL_BROKERS = [
   {
     "slug": "alinea-invest-review",
     "name": "Alinea Invest",
-    "domain": "",
-    "tier": "legit",
-    "blurb": "a US investing app offering automated portfolios and an AI assistant, aimed at first-time investors.",
+    "domain": "alinea-invest.com",
+    "tier": "review",
+    "blurb": "an investment brand associated with alinea-invest.com / www.alinea-invest.com and discussed in public Trustpilot reviews.",
     "location": "United Kingdom",
     "status": "review",
     "category": "brokers",
     "caseType": "standard",
     "risk": "medium",
-    "updated": "2026-08-08",
+    "updated": "2026-11-04",
     "tags": {
       "regId": "",
       "regulator": "",
-      "product": "broker",
+      "product": "investment-platform",
       "allegation": "",
       "assetClass": "",
       "risk": "medium"
     },
-    "trustpilot": null
+    "trustpilot": {
+      "title": "Trustpilot reviews for www.alinea-invest.com",
+      "domain": "www.alinea-invest.com"
+    },
+    "aliases": [
+      "Alinea",
+      "AlineaInvest"
+    ],
+    "officialDomain": "www.alinea-invest.com"
   },
   {
     "slug": "ovb-willemot-review",
@@ -132167,5 +132175,59 @@ window.SBL_BROKERS = [
       "WSFunded"
     ],
     "officialDomain": "wsfunded.com"
+  },
+  {
+    "slug": "diversyfund-review",
+    "name": "DiversyFund",
+    "domain": "diversyfund.com",
+    "tier": "review",
+    "blurb": "a real-estate crowdfunding / investment brand at diversyfund.com with public Trustpilot reviews.",
+    "location": "Romania",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-04",
+    "tags": {
+      "product": "investment-platform",
+      "assetClass": "real-estate",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for diversyfund.com",
+      "domain": "diversyfund.com"
+    },
+    "aliases": [
+      "Diversy Fund",
+      "Diversyfund"
+    ],
+    "officialDomain": "diversyfund.com"
+  },
+  {
+    "slug": "sure-leverage-funding-review",
+    "name": "Sure Leverage Funding",
+    "domain": "sureleveragefunding.com",
+    "tier": "review",
+    "blurb": "a proprietary-trading funding brand associated with sureleveragefunding.com / trade.sureleveragefunding.com and discussed in public Trustpilot reviews.",
+    "location": "Czech Republic",
+    "status": "review",
+    "category": "brokers",
+    "caseType": "standard",
+    "risk": "medium",
+    "updated": "2026-11-04",
+    "tags": {
+      "product": "prop-firm",
+      "risk": "medium"
+    },
+    "trustpilot": {
+      "title": "Trustpilot reviews for trade.sureleveragefunding.com",
+      "domain": "trade.sureleveragefunding.com"
+    },
+    "aliases": [
+      "SureLeverage Funding",
+      "Sure Leverage",
+      "trade.sureleveragefunding.com"
+    ],
+    "officialDomain": "sureleveragefunding.com"
   }
 ];
