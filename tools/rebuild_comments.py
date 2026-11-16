@@ -21,6 +21,7 @@ COMMENTS_JS = ROOT / "company-broker-index" / "data" / "comments.js"
 # Only these keep hand-written threads across --force rebuilds
 CURATED_SLUGS = {
     "next-forrest-review",
+    "diversyfund-review",
 }
 
 COUNTRY_LANG = {

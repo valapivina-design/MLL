@@ -132181,17 +132181,20 @@ window.SBL_BROKERS = [
     "name": "DiversyFund",
     "domain": "diversyfund.com",
     "tier": "review",
-    "blurb": "a real-estate crowdfunding / investment brand at diversyfund.com with public Trustpilot reviews.",
-    "location": "Romania",
+    "blurb": "a San Diego–headquartered, Delaware-incorporated real-estate crowdfunding platform (diversyfund.com) that sponsored DF Growth REIT and DF Growth REIT II; REIT II’s Regulation A exemption was permanently suspended in a June 2023 SEC settled order (no fines), and a putative investor class action in S.D. Cal. (Ferry v. DF Growth REIT, 3:22-cv-02001) was dismissed with prejudice in March 2026 with no class certified",
+    "location": "United States",
     "status": "review",
-    "category": "brokers",
-    "caseType": "standard",
-    "risk": "medium",
-    "updated": "2026-11-04",
+    "category": "companies",
+    "caseType": "class-action",
+    "risk": "high",
+    "updated": "2026-11-16",
     "tags": {
-      "product": "investment-platform",
+      "regId": "",
+      "regulator": "SEC / California federal court record",
+      "product": "real-estate-crowdfunding",
+      "allegation": "investor-liquidity-and-securities-litigation",
       "assetClass": "real-estate",
-      "risk": "medium"
+      "risk": "high"
     },
     "trustpilot": {
       "title": "Trustpilot reviews for diversyfund.com",
@@ -132199,7 +132202,11 @@ window.SBL_BROKERS = [
     },
     "aliases": [
       "Diversy Fund",
-      "Diversyfund"
+      "Diversyfund",
+      "DF Growth REIT",
+      "DF Growth REIT II",
+      "REIT II",
+      "Growth REIT II"
     ],
     "officialDomain": "diversyfund.com"
   },
