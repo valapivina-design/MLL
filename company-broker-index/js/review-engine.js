@@ -357,8 +357,16 @@
     var blurb = b.blurb || "a firm we have reviewed against publicly available records.";
     var soft = isSoftTier(b);
     var process = [
-      "How does your process work?",
+      "How does a confidential consultation with Mike Levy Law work?",
       "We begin with a confidential look at the date, how you paid, and any statements or screenshots you still have. We then compare that timeline with the public record and outline counsel, regulator, or reporting options. We do not replace your bank, card scheme, or the police.",
+    ];
+    var moneyBack = [
+      "Can I get my money back from " + n + "?",
+      "Recovery depends on how you paid, how long ago, and what evidence you still hold — bank recall, card chargeback, crypto tracing, and regulator complaints each have different windows. A confidential consultation reviews those options against your documents; there is no guaranteed recovery outcome.",
+    ];
+    var taxFee = [
+      n + " says I must pay a tax or fee before withdrawing — should I?",
+      "No. Real firms deduct legitimate charges from the balance or disclose them in statements — they do not usually demand a separate “tax” or “release” payment to a personal wallet before you can leave.",
     ];
     var aliasFaqs = aliases.slice(0, 2).map(function (a) {
       return [
@@ -411,6 +419,8 @@
           "I lost money to someone claiming to be " + n + " — is that the real company?",
           "Often it is not. Impersonators borrow names, logos, even licence numbers. Keep every message, receipt, URL and wallet address, then contact us if you want next steps reviewed.",
         ],
+        moneyBack,
+        taxFee,
         [
           "How do I check the " + n + " site I used is genuine?",
           "Type " +
@@ -421,6 +431,12 @@
       ];
     } else {
       faqs = [
+        [
+          "Is " + n + " a scam?",
+          "Public complaint patterns linked to " +
+            n +
+            " often include stalled withdrawals, unexpected fee demands, or unreachable support. This page is not a court finding — it summarizes the public record so you can compare it with your own documents. If funds are stuck, keep every receipt and URL and ask for a confidential review before sending more money.",
+        ],
         [
           "Is " + n + " a legit broker?",
           "A licence you verified yourself and a payout that reaches an account you own is one picture. A screen balance plus a new fee before you can leave is another. " +
@@ -435,10 +451,8 @@
             n +
             ".",
         ],
-        [
-          n + " says I must pay a tax or fee before withdrawing — should I?",
-          "No. A genuine broker deducts fees from the balance. A fresh payment to “release” your own money is a second charge. Keep that message, then contact us if you want the file reviewed.",
-        ],
+        taxFee,
+        moneyBack,
         [
           "What do you do with what I send?",
           "We compare it with the public record on this page and advise on litigation and reporting pathways. We do not replace the bank, the card scheme, or the police. The first look is confidential.",
@@ -592,15 +606,16 @@
       "listed domain";
     var title;
     var desc;
-    // Keyword rules: H1 / primary title signal = "{Name} Review".
-    // Question pair (scam / legit broker) lives in meta description, H2s, FAQ.
+    // Keyword rules: H1/title carry "{Name} Review — Is {Name} a Scam?" for commercial SERPs.
     var asOf = asOfLabel(b.updated);
     if (soft) {
       title =
         n +
         " Review " +
         YEAR +
-        " — Regulation, Complaints & Clone Warnings | Mike Levy Law";
+        " — Is " +
+        n +
+        " a Scam? Clones & Complaints | Mike Levy Law";
       desc =
         n +
         " review (" +
@@ -609,25 +624,24 @@
         n +
         " a scam? Is " +
         n +
-        " a legit broker? Real company signals, clone warnings, complaints, and confidential consultation.";
+        " a legit broker? Clone warnings, complaints, and confidential consultation if funds are stuck.";
     } else {
       title =
         n +
         " Review " +
         YEAR +
-        " — Company & Broker Index | Mike Levy Law";
+        " — Is " +
+        n +
+        " a Scam? Withdrawals & Recovery | Mike Levy Law";
       desc =
         n +
         " review (" +
         asOf +
         "): is " +
         n +
-        " a scam? Is " +
-        n +
-        " a legit broker? Assessment of " +
-        dom +
-        " — withdrawals, complaints, regulator checks, consultation.";
+        " a scam? Withdrawal problems, fee demands, and confidential options if you cannot get money back.";
     }
+    if (title.length > 70) title = title.slice(0, 67) + "…";
     var aliases = getAliases(b);
     var clones = getClones(b);
     // Keep primary keyword pair first; append aliases only if room after clip
@@ -1177,7 +1191,7 @@
   applySeo(broker);
 
   var h1 = document.getElementById("seo-h1");
-  if (h1) h1.textContent = broker.name + " Review";
+  if (h1) h1.textContent = broker.name + " Review — Is " + broker.name + " a Scam?";
 
   document.getElementById("company-name").textContent = broker.name;
   var kind =

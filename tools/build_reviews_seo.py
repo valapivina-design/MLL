@@ -366,8 +366,9 @@ def reviews_section_html(b: dict, comments_db: dict, contact: str, page_url: str
       <div class="intake-stack">
 {form}
       <aside class="case-review-panel" aria-labelledby="case-review-heading">
-        <h3 id="case-review-heading">Need a case review?</h3>
-        <a class="cta-btn" id="request-case-review" href="{contact}">Request a case review</a>
+        <h3 id="case-review-heading">Can't withdraw? Lost money to {escape(n)}?</h3>
+        <p class="case-review-lead">Confidential consultation — evidence review and next-step options. No recovery guarantees.</p>
+        <a class="cta-btn" id="request-case-review" href="{contact}">Request a confidential consultation</a>
       </aside>
       </div>
     </div>"""
@@ -578,8 +579,16 @@ def faqs(b: dict) -> list[tuple[str, str]]:
     dom = official_domain(b) or "the listed domain"
     blurb = scrub_indexed(b.get("blurb") or "a firm we have reviewed against publicly available records.")
     process = (
-        "How does your process work?",
+        "How does a confidential consultation with Mike Levy Law work?",
         "We begin with a confidential look at the date, how you paid, and any statements or screenshots you still have. We then compare that timeline with the public record and outline counsel, regulator, or reporting options. We do not replace your bank, card scheme, or the police.",
+    )
+    money_back = (
+        f"Can I get my money back from {n}?",
+        f"Recovery depends on how you paid, how long ago, and what evidence you still hold — bank recall, card chargeback, crypto tracing, and regulator complaints each have different windows. A confidential consultation reviews those options against your documents; there is no guaranteed recovery outcome.",
+    )
+    tax_fee = (
+        f"{n} says I must pay a tax or fee before withdrawing — should I?",
+        "No. Real firms deduct legitimate charges from the balance or disclose them in statements — they do not usually demand a separate “tax” or “release” payment to a personal wallet before you can leave.",
     )
     if soft:
         items = [
@@ -603,6 +612,8 @@ def faqs(b: dict) -> list[tuple[str, str]]:
                 f"I lost money to someone claiming to be {n} — is that the real company?",
                 "Often it is not. Impersonators borrow names, logos, even licence numbers. Keep every message, receipt, URL and wallet address, then contact us if you want next steps reviewed.",
             ),
+            money_back,
+            tax_fee,
             (
                 f"How do I check the {n} site I used is genuine?",
                 f"Type {dom} yourself — do not follow a link from an advert, email or message. If the domain differs by even one character, you were not dealing with the firm described on this page.",
@@ -623,10 +634,8 @@ def faqs(b: dict) -> list[tuple[str, str]]:
                 f"Can you close my {n} account, or have the person who phoned me call again?",
                 f"Mike Levy Law is not affiliated with this broker. We do not hold an account at {n} and cannot impersonate their staff or reopen a login for you.",
             ),
-            (
-                f"{n} says I must pay a tax or fee before withdrawing — should I?",
-                "No. Real firms deduct legitimate charges from the balance or disclose them in statements — they do not usually demand a separate “tax” or “release” payment to a personal wallet before you can leave.",
-            ),
+            tax_fee,
+            money_back,
             (
                 "What do you do with what I send?",
                 "We review it confidentially against the public record and outline counsel, regulator, or reporting options. We are not a bank, card scheme, or police substitute.",
@@ -676,8 +685,10 @@ def writeup_html(b: dict) -> str:
             f"<p>{name_with_blurb(n, blurb)}. As of {escape(as_of_label(b))}, public reporting linked to {escape(dom)} and activity associated with {escape(loc)} includes patterns such as stalled withdrawals, unexpected fee demands before payout, or similar friction. Clients often ask whether {escape(n)} is a scam or a legitimate broker; the answer turns on the domain you used and the documents you still hold.</p>"
             f"<h2>Withdrawals, fees, and what to keep</h2>"
             f"<p>A licence you verified yourself and a payout that reaches an account you control is one picture. A dashboard balance plus a new “tax” or “compliance” payment before you can leave is another. If you paid through {escape(dom)}, retain the date, method, and any message that demanded an extra fee.</p>"
-            f"<h2>If you cannot withdraw</h2>"
+            f"<h2>If you cannot withdraw from {escape(n)}</h2>"
             f"<p>Accounts that allow a small test payout and then freeze larger requests are a recurring pattern in {escape(n)} complaint threads. Contact Mike Levy Law for a confidential consultation — we compare what you send with the public record and advise on litigation or reporting pathways.</p>"
+            f"<h2>Watch for recovery scams</h2>"
+            f"<p>After a loss, strangers may offer to “recover” funds for an upfront fee. That is often a second fraud. Do not pay anyone who guarantees results. A confidential consultation with counsel is different: we review evidence and outline lawful next steps — we do not ask for a recovery deposit to unlock money.</p>"
         )
     als = aliases_of(b)
     if als:
@@ -717,11 +728,12 @@ def page_html(b: dict, comments_db: dict) -> str:
     kw = keywords(b, soft)
     as_of = as_of_label(b)
     if soft:
-        title = f"{n} Review {YEAR} — Regulation, Complaints & Clone Warnings | Mike Levy Law"
-        desc = f"{n} review ({as_of}): is {n} a scam? Is {n} a legit broker? Real company signals, clone warnings, complaints, and confidential consultation."
+        title = f"{n} Review {YEAR} — Is {n} a Scam? Clones & Complaints | Mike Levy Law"
+        desc = f"{n} review ({as_of}): is {n} a scam? Is {n} a legit broker? Clone warnings, complaints, and confidential consultation if funds are stuck."
     else:
-        title = f"{n} Review {YEAR} — Company & Broker Index | Mike Levy Law"
-        desc = f"{n} review ({as_of}): is {n} a scam? Is {n} a legit broker? Assessment of {dom} — withdrawals, complaints, regulator checks, consultation."
+        title = f"{n} Review {YEAR} — Is {n} a Scam? Withdrawals & Recovery | Mike Levy Law"
+        desc = f"{n} review ({as_of}): is {n} a scam? Withdrawal problems, fee demands, and confidential options if you cannot get money back."
+    title = clip(title, 70)
     extra = ""
     if als:
         extra += " Also: " + ", ".join(als[:3]) + "."
@@ -921,7 +933,7 @@ def page_html(b: dict, comments_db: dict) -> str:
       </div>
       <div class="seo-kicker">Brief</div>
       <div class="report-heading-row">
-        <h1>{escape(n)} Review</h1>
+        <h1>{escape(n)} Review — Is {escape(n)} a Scam?</h1>
         <form class="top-search" action="../index.html" method="get" role="search">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
@@ -980,10 +992,25 @@ def page_html(b: dict, comments_db: dict) -> str:
     <section class="faq-block" aria-labelledby="faq-heading">
       <div class="section-kicker">Guidance</div>
       <h2 id="faq-heading">Frequently asked questions</h2>
-      <p class="faq-lead">Straight answers on legitimacy, withdrawals, fees, and how a confidential consultation works.</p>
+      <p class="faq-lead">Straight answers on legitimacy, withdrawals, getting money back, and how a confidential consultation works.</p>
       <div class="faq">
 {faq_html}
       </div>
+    </section>
+
+    <section class="convert-block" aria-labelledby="convert-heading">
+      <div class="section-kicker">Next step</div>
+      <h2 id="convert-heading">{"Lost money or can't withdraw from " + escape(n) + "?" if not soft else "Need help confirming " + escape(n) + "?"}</h2>
+      <p class="convert-lead">
+        {"Stop any further “tax” or unlock payments. Keep receipts, chat logs, wallet addresses, and the exact domain you used. Then request a confidential consultation — we compare your timeline to the public record and outline bank, card, crypto, counsel, or regulator pathways. No guaranteed recovery outcome." if not soft else "If the site you used does not match the official domain, or funds will not clear, keep every receipt and URL. A confidential consultation can sort clone risk from a genuine service dispute and outline next steps."}
+      </p>
+      <a class="cta-btn" href="{contact}">Request a confidential consultation</a>
+      <p class="related-guides">
+        Related guidance:
+        <a href="../../insights/recover-stolen-crypto.html">Recover stolen crypto</a> ·
+        <a href="../../insights/online-trading-forex-scams.html">Online trading &amp; forex scams</a> ·
+        <a href="../../insights/report-a-scam.html">How to report a scam</a>
+      </p>
     </section>
 
     <div class="closing">
