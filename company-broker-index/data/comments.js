@@ -239464,8 +239464,8 @@ window.SBL_COMMENTS = {
       "name": "Sarah Mitchell",
       "initials": "SM",
       "country": "United States",
-      "title": "San Diego platform — not some overseas shell?",
-      "text": "Confirming for my file: DiversyFund, Inc. is Delaware-incorporated with San Diego HQ on SEC forms — not a Romania company. My issue is U.S. crowdfunding REIT liquidity after years. Can counsel review whether my paperwork is REIT I or REIT II before I escalate?",
+      "title": "Delaware / San Diego — which REIT am I in?",
+      "text": "Confirming for my file: DiversyFund, Inc. is Delaware-incorporated with San Diego HQ on SEC forms. My issue is U.S. crowdfunding REIT liquidity after years. Can counsel review whether my paperwork is REIT I or REIT II before I escalate?",
       "askHelp": true
     }
   ],
