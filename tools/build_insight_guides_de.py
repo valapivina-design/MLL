@@ -523,6 +523,207 @@ GUIDES = [
         ],
         "source": "insights-de-anlagebetrug-erkennen",
     },
+    {
+        "slug": "betrug-mit-kryptowaehrung",
+        "kicker": f"Kryptowährung · Aktualisiert {UPDATED}",
+        "h1": "Betrug mit Kryptowährung: sechsstelliger Schaden — was jetzt trägt",
+        "title": "Betrug mit Kryptowährung: Wege bei hohem Schaden | Mike Levy Law",
+        "desc": "Betrug mit Kryptowährung — auch bei sechsstelligem Schaden: Tracing, Börsen, Anzeige und anwaltliche Durchsetzung nach Krypto-Betrug.",
+        "keywords": "betrug mit kryptowährung, betrug kryptowährung sechsstelliger schaden, krypto-betrug, betrug kryptowährung, kryptowährung scam, betrug mit bitcoin",
+        "lead": "Bei Betrug mit Kryptowährung im sechsstelligen Bereich ändert sich die Kalkulation: Tracing, formale Anfragen an Börsen und koordinierte straf- und zivilrechtliche Schritte werden wirtschaftlich — und Geschwindigkeit entscheidet über Datenlage und Spurenqualität.",
+        "sections": [
+            (
+                "Warum sechsstellige Schäden anders behandelt werden",
+                "<p>Ab dieser Größenordnung lohnt professionelles Blockchain-Tracing fast immer, Staatsanwaltschaften priorisieren anders, und zivilrechtliche Schritte gegen identifizierbare Mittäter oder Dienstleister werden rechnbar. Voraussetzung: saubere Beweislage ab Tag eins.</p>",
+            ),
+            (
+                "Die tragenden Bausteine",
+                "<ol>"
+                "<li>Vollständige Transaktionshistorie: Hashes, Adressen, Zeitstempel, Plattform-Domain</li>"
+                "<li>Tracing bis zu KYC-Börsen und Zahlungsdienstleistern</li>"
+                "<li>Strafanzeige mit verwertbarer Darstellung — nicht nur „Betrug im Internet“</li>"
+                "<li>Formale Anfragen an Börsen durch Ermittler oder Anwalt</li>"
+                "<li>Fiat-Anteile (Karte/Überweisung) parallel über <a href=\"../anlagebetrug-geld-zurueck/\">Chargeback/Rückruf</a> prüfen</li>"
+                "</ol>",
+            ),
+            (
+                "Typische Fallen bei großen Schäden",
+                "<p>Gerade sechsstellig Geschädigte werden von Recovery-Betrügern gezielt erneut kontaktiert — „wir haben Ihre Coins lokalisiert“. Zweites Warnsignal: Plattformen, die eine „Steuer“ von 10–20 % auf den angezeigten Kontostand verlangen. Beides ist Vorschussbetrug. Keine weiteren Zahlungen.</p>",
+            ),
+        ],
+        "faqs": [
+            (
+                "Lohnt sich Vorgehen bei sechsstelligem Krypto-Schaden?",
+                "Meist ja — Tracing, Ermittlungsdruck auf Börsen und zivilrechtliche Optionen werden bei dieser Höhe wirtschaftlich. Eine vertrauliche Prüfung klärt die konkreten Ansatzpunkte Ihres Falls.",
+            ),
+            (
+                "Kann man bei Betrug mit Kryptowährung Geld zurückbekommen?",
+                "Nicht über Rückbuchung — aber über Tracing zu regulierten Börsen, Ermittlungen und gegebenenfalls zivilrechtliche Ansprüche. Teilerfolge sind realistisch; Garantien sind es nicht.",
+            ),
+            (
+                "Die Plattform zeigt Gewinne, verlangt aber „Steuer“ vor Auszahlung — was tun?",
+                "Nicht zahlen. Der angezeigte Kontostand ist bei dieser Masche Teil der Täuschung. Beweise sichern und den Fall prüfen lassen — jede weitere Zahlung erhöht nur den Schaden.",
+            ),
+        ],
+        "related": [
+            ("../krypto-betrug-geld-zurueck/", "Krypto-Betrug: Geld zurück"),
+            ("../krypto-betrug-anwalt/", "Krypto-Betrug Anwalt"),
+            ("../anlagebetrug-melden/", "Betrug melden / anzeigen"),
+        ],
+        "source": "insights-de-betrug-mit-kryptowaehrung",
+    },
+    {
+        "slug": "broker-auszahlung-problem",
+        "kicker": f"Auszahlung · Aktualisiert {UPDATED}",
+        "h1": "Broker Auszahlung Problem: warum Ihr Geld nicht ausgezahlt wird — und was hilft",
+        "title": "Broker Auszahlung Problem: Geld nicht ausgezahlt | Mike Levy Law",
+        "desc": "Broker Auszahlung Problem? Warum der Broker nicht auszahlt, Geld zurückhält oder die Auszahlung ewig dauert — Muster, Fristen und nächste Schritte.",
+        "keywords": "broker auszahlung problem, geld nicht ausgezahlt, warum zahlt mir mein broker nicht aus, broker hält geld zurück, auszahlung dauert zu lange, broker zahlt nicht aus, forex broker auszahlung gesperrt, ist dieser broker seriös, nicht regulierte broker deutschland",
+        "lead": "Die Auszahlung steht auf „pending“ — seit Wochen. Dann kommen neue Bedingungen. Ein Broker-Auszahlungsproblem ist oft das erste harte Signal, dass etwas nicht stimmt. Was Sie in den nächsten 14 Tagen tun, entscheidet, welche Optionen offen bleiben.",
+        "sections": [
+            (
+                "Warum Auszahlungen wirklich scheitern",
+                "<p>Operative Verzögerungen gibt es. Entscheidend ist das <strong>Muster</strong>: eine datierte Erklärung mit nachverfolgbarer Überweisung ist etwas anderes als wechselnde Ausreden — neue „Steuern“, „Freigabegebühren“, „Compliance-Zahlungen“ oder Funkstille, nachdem eine kleine Testauszahlung einmal klappte.</p>",
+            ),
+            (
+                "Was Sie in den ersten 14 Tagen tun sollten",
+                "<ol>"
+                "<li>Keine weiteren Zahlungen — keine „Steuer“, kein „Unlock“, keine „Provision“.</li>"
+                "<li>Chats, Mails, Kontoauszüge und die exakte Domain sichern.</li>"
+                "<li>Bank/Kartenherausgeber informieren und Rückruf/Chargeback-Fristen erfragen.</li>"
+                "<li>Regulierung prüfen: steht die Domain im BaFin-/FMA-/FINMA-Register — oder ist es ein Klon?</li>"
+                "<li>Bei erheblichem Betrag: <a href=\"../anlagebetrug-anwalt/\">vertrauliche anwaltliche Prüfung</a>.</li>"
+                "</ol>",
+            ),
+            (
+                "„Ist dieser Broker seriös?“ — der Zwei-Minuten-Check",
+                "<p>Prüfen Sie die exakte Domain im Register der zuständigen Behörde (nicht den Firmennamen in der Werbung), den Zahlungsempfänger auf Ihrem Kontoauszug, und Warnlisten. Nicht regulierte Broker mit Sitz außerhalb der EU sind kein Automatismus für Betrug — aber ohne Register-Eintrag zur Domain ist Vorsicht Pflicht.</p>",
+            ),
+        ],
+        "faqs": [
+            (
+                "Warum zahlt mir mein Broker nicht aus?",
+                "Kurze, klar begründete Verzögerungen kommen vor. Wechselnde Begründungen, neue Gebührenforderungen oder ein Einfrieren nach einer kleinen Testauszahlung sind klassische Warnsignale — Zahlungen stoppen und Beweise sichern.",
+            ),
+            (
+                "Mein Broker hält mein Geld zurück — was zuerst?",
+                "Schriftlich Auszahlung verlangen (Beweis), Bank/Kartenherausgeber kontaktieren, Auszahlungsverweigerung dokumentieren. Nicht auf neue Gebührenangebote eingehen.",
+            ),
+            (
+                "Wie erkenne ich, ob mein Broker reguliert ist?",
+                "Domain (nicht nur Firmenname) im BaFin-, FMA- oder FINMA-Register suchen. Steht die Domain dort nicht, ist sie keine regulierte Filiale — egal was die Webseite behauptet.",
+            ),
+        ],
+        "related": [
+            ("../geld-zurueck-broker/", "Geld zurück vom Broker"),
+            ("../trading-betrug-geld-zurueck/", "Trading-Betrug: Geld zurück"),
+            ("../anlagebetrug-erkennen/", "Anlagebetrug erkennen"),
+        ],
+        "source": "insights-de-broker-auszahlung-problem",
+    },
+    {
+        "slug": "geld-zurueck-broker",
+        "kicker": f"Rückholung · Aktualisiert {UPDATED}",
+        "h1": "Geld zurück vom Broker: Rückholhilfe nach Betrug — seriös oder zweite Falle?",
+        "title": "Geld zurück Broker: Rückholhilfe Betrug erkennen | Mike Levy Law",
+        "desc": "Geld zurück vom Broker: Wie Sie Ihr Geld vom Broker zurückbekommen, was Rückholhilfe kostet — und woran Sie unseriöse Rückhol-Dienste erkennen.",
+        "keywords": "geld zurück broker, wie bekomme ich mein geld vom broker zurück, rückholhilfe betrug, kosten für rückholhilfe, geld zurückholen broker, rechtsanwalt anlagebetrug, broker geld zurückfordern",
+        "lead": "Nach dem Verlust kommt das zweite Angebot: „Wir holen Ihr Geld zurück.“ Ein Teil davon ist der nächste Betrug. Diese Seite trennt die echten Wege (Chargeback, Rückruf, Anwalt) von der Rückholhilfe-Falle.",
+        "sections": [
+            (
+                "Die echten Wege zum Geld zurück",
+                "<ul>"
+                "<li><strong>Chargeback</strong> bei Kartenzahlung — schnell, aber fristgebunden.</li>"
+                "<li><strong>Überweisungsrückruf</strong> über die eigene Bank — je früher, desto besser.</li>"
+                "<li><strong>Strafanzeige</strong> — Basis für Ermittlungen und Bankanfragen.</li>"
+                "<li><strong>Anwaltliche Prüfung</strong> — Beweisstruktur, richtige Gegenpartei, zivilrechtliche Optionen.</li>"
+                "</ul>"
+                "<p>Details: <a href=\"../anlagebetrug-geld-zurueck/\">Anlagebetrug: Geld zurück</a>.</p>",
+            ),
+            (
+                "Rückholhilfe-Betrug: die Muster",
+                "<ul>"
+                "<li>Kaltakquise: Anruf oder Mail kurz nach Ihrem Verlust — woher haben die Ihre Daten?</li>"
+                "<li>Vorkasse in Krypto, Gutscheinen oder Überweisung als „Freigabegebühr“.</li>"
+                "<li>Erfolgsgarantie oder „Ihr Geld liegt bereits bereit“.</li>"
+                "<li>Ausweis als Anwälte, Polizei oder Behörde — mit gefälschten Dokumenten.</li>"
+                "</ul>"
+                "<p>Seriöse Hilfe beginnt mit Prüfung Ihrer Unterlagen — nie mit einer Vorauszahlung zum „Entsperren“.</p>",
+            ),
+            (
+                "Was kostet seriöse Rückholhilfe?",
+                "<p>Anwaltliche Arbeit orientiert sich an Gegenstandswert und Aufwand; eine Ersteinschätzung klärt zuerst, ob sich weitere Schritte lohnen. Pauschale „Rückhol-Preise“ mit Garantie sind ein Warnsignal, kein Angebot.</p>",
+            ),
+        ],
+        "faqs": [
+            (
+                "Wie bekomme ich mein Geld vom Broker zurück?",
+                "Über den Zahlungsweg: Chargeback (Karte), Rückruf (Überweisung), Tracing (Krypto) — flankiert von Strafanzeige und, bei erheblichen Beträgen, anwaltlicher Prüfung. Ohne Garantie, aber in der richtigen Reihenfolge.",
+            ),
+            (
+                "Sind Rückholhilfe-Dienste seriös?",
+                "Einige Ermittlungs- und Beratungsleistungen sind es. Kaltakquise mit Vorkasse und Garantieversprechen ist das Kernmuster des Recovery-Betrugs — nicht zahlen.",
+            ),
+            (
+                "Lohnt sich ein Rechtsanwalt bei Anlagebetrug?",
+                "Bei erheblichen Beträgen meist ja: Er strukturiert Beweise, identifiziert die richtige Gegenpartei und koordiniert Bank, Anzeige und Klage — statt Fristen verstreichen zu lassen.",
+            ),
+        ],
+        "related": [
+            ("../anlagebetrug-anwalt/", "Anlagebetrug Anwalt"),
+            ("../anlagebetrug-geld-zurueck/", "Anlagebetrug: Geld zurück"),
+            ("../broker-auszahlung-problem/", "Broker Auszahlung Problem"),
+        ],
+        "source": "insights-de-geld-zurueck-broker",
+    },
+    {
+        "slug": "bonusrfalle-hebelprodukte",
+        "kicker": f"Bonus & Hebel · Aktualisiert {UPDATED}",
+        "h1": "Bonusfalle Forex und Hebelprodukte-Betrug: warum der Bonus Ihre Auszahlung sperrt",
+        "title": "Bonusfalle Forex & Hebelprodukte Betrug: Erklärung | Mike Levy Law",
+        "desc": "Bonusfalle Forex erklärt: Wie Broker-Boni die Auszahlung sperren, Storno des Bonus verlangen — und was bei Hebelprodukte-Betrug zu tun ist.",
+        "keywords": "bonusfalle, bonusfalle forex erklärung, storno bonus broker, forex broker auszahlung gesperrt, hebelprodukte betrug, broker bonus auszahlung gesperrt, bonus betrug forex",
+        "lead": "„50 % Bonus auf Ihre Einzahlung!“ — und plötzlich ist Ihr eigenes Geld gesperrt. Die Bonusfalle ist einer der häufigsten Mechanismen, mit dem Forex- und CFD-Plattformen Auszahlungen blockieren. So funktioniert sie — und so kommen Sie heraus.",
+        "sections": [
+            (
+                "Wie die Bonusfalle funktioniert",
+                "<p>Der Bonus kommt mit „Umsatzbedingungen“, die im Kleingedruckten stehen: z. B. 30–50-faches Handelsvolumen, bevor <em>irgendeine</em> Auszahlung möglich ist — einschließlich Ihrer eigenen Einzahlung. Genau darin liegt die Sperre: Ihr Guthaben ist an Bedingungen gekettet, die praktisch unerfüllbar sind.</p>",
+            ),
+            (
+                "Storno des Bonus verlangen",
+                "<ol>"
+                "<li>Schriftlich (E-Mail + Ticket) verlangen: Bonus stornieren, Bonusbedingungen für nichtig erklären, Auszahlung der Einzahlung.</li>"
+                "<li>Ablehnung dokumentieren — sie ist Beweismaterial für Bank, Anzeige und Anwalt.</li>"
+                "<li>Keine weiteren Trades „zum Freispielen“ — das erhöht nur den Verlust.</li>"
+                "<li>Chargeback-Fristen bei Kartenzahlung parallel prüfen — nicht auf die Bonus-Diskussion warten.</li>"
+                "</ol>",
+            ),
+            (
+                "Hebelprodukte-Betrug: das größere Bild",
+                "<p>Bei unregulierten Plattformen ist der Bonus oft nur der Anfang: manipulierte Kurse, „Slippage“, Zwangsliquidation und anschließende Auszahlungssperre gehören zum selben Muster. Prüfen Sie, ob die Domain überhaupt reguliert ist — und sichern Sie Screenshots, bevor das Konto „gelöscht“ wird. Mehr: <a href=\"../trading-betrug-geld-zurueck/\">Trading-Betrug: Geld zurück</a>.</p>",
+            ),
+        ],
+        "faqs": [
+            (
+                "Kann ein Broker meine Auszahlung wegen eines Bonus sperren?",
+                "Bei unseriösen Plattformen genau dafür ist der Bonus da. Regulierte Anbieter müssen Bedingungen transparent machen; das nachträgliche Verketten Ihrer Einzahlung mit Bonusbedingungen ist ein bekanntes Missbrauchsmuster.",
+            ),
+            (
+                "Kann ich den Bonus stornieren lassen?",
+                "Verlangen Sie es schriftlich und dokumentieren Sie die Antwort. Ob rechtlich durchsetzbar, hängt von Vertrag und Anbieter ab — die schriftliche Ablehnung ist auf jeden Fall verwertbares Beweismaterial.",
+            ),
+            (
+                "Soll ich erst die Umsatzbedingungen erfüllen?",
+                "Nein. Weiteres Traden „zum Freispielen“ ist genau das Ziel der Falle — es verwandelt einen auszahlbaren Rest in einen Totalverlust. Stoppen, dokumentieren, Bank- und Rechtswege prüfen.",
+            ),
+        ],
+        "related": [
+            ("../trading-betrug-geld-zurueck/", "Trading-Betrug: Geld zurück"),
+            ("../broker-auszahlung-problem/", "Broker Auszahlung Problem"),
+            ("../geld-zurueck-broker/", "Geld zurück vom Broker"),
+        ],
+        "source": "insights-de-bonusrfalle-hebelprodukte",
+    },
 ]
 
 HUB_CARDS = [
@@ -536,6 +737,10 @@ HUB_CARDS = [
     ("anlagebetrug-melden/", "Melden", "Anlagebetrug melden / anzeigen", "Polizei, Online-Wache, BaFin — Stellen und Unterlagen für eine verwertbare Anzeige.", "anlagebetrug melden · anzeigen · scam melden polizei"),
     ("online-betrug-geld-zurueckfordern/", "Geld zurück", "Online-Betrug: Geld zurückfordern", "Der richtige Weg nach Zahlungsart: Karte, Überweisung, Krypto.", "online betrug geld zurück · zurückfordern"),
     ("anlagebetrug-erkennen/", "Prävention", "Anlagebetrug erkennen", "Die fünf Kernmuster — und die Zwei-Minuten-Prüfung vor jeder Zahlung.", "anlagebetrug erkennen · warnsignale · krypto betrug erkennen"),
+    ("betrug-mit-kryptowaehrung/", "Krypto · Priorität", "Betrug mit Kryptowährung", "Sechsstelliger Schaden: Tracing, Börsen, Anzeige und Durchsetzung.", "betrug mit kryptowährung · sechsstelliger schaden · krypto-betrug"),
+    ("broker-auszahlung-problem/", "Auszahlung · Priorität", "Broker Auszahlung Problem", "Warum der Broker nicht auszahlt — Muster, Fristen, erste 14 Tage.", "broker auszahlung problem · geld nicht ausgezahlt · broker hält geld zurück"),
+    ("geld-zurueck-broker/", "Rückholung", "Geld zurück vom Broker", "Echte Wege vs. Rückholhilfe-Betrug — Kosten und Muster der zweiten Falle.", "geld zurück broker · rückholhilfe betrug · rechtsanwalt anlagebetrug"),
+    ("bonusrfalle-hebelprodukte/", "Bonus & Hebel", "Bonusfalle Forex & Hebelprodukte", "Wie der Bonus die Auszahlung sperrt — Storno verlangen, Fristen sichern.", "bonusfalle forex · storno bonus broker · hebelprodukte betrug"),
 ]
 
 
