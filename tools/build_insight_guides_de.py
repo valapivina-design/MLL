@@ -852,7 +852,7 @@ def page_html(g: dict) -> str:
     <div class="cta-strip">
       <div>
         <strong>Vertrauliche Prüfung anfordern?</strong>
-        <p>Wir gleichen Ihre Unterlagen mit dem öffentlichen Befund ab und beraten zu Meldungs- und Rechtswegen — unverbindlich. Keine Erfolgsgarantie.</p>
+        <p>Die Ersteinschätzung ist kostenlos. Wir prüfen zunächst Ihren Anspruch sowie dessen Aussichten und Durchsetzbarkeit — das hängt vom Stand der Beweise ab. Keine Erfolgsgarantie.</p>
       </div>
       <a href="{contact}">Beratung anfordern</a>
     </div>

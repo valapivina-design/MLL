@@ -486,7 +486,7 @@ def page_html(g: dict) -> str:
     <div class="cta-strip">
       <div>
         <strong>Richiedere una valutazione riservata?</strong>
-        <p>Confrontiamo la sua documentazione con il quadro pubblico e valutiamo i canali di segnalazione o legali — senza impegno. Nessuna garanzia di recupero.</p>
+        <p>La consulenza è gratuita. Dobbiamo prima convalidare il suo caso e valutarne prospettive e fattibilità — dipende dal livello delle prove. Nessuna garanzia di recupero.</p>
       </div>
       <a href="{contact}">Richiedi una consulenza</a>
     </div>
