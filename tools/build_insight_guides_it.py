@@ -72,6 +72,23 @@ GUIDES = [
             ("../avvocato-truffa-online/", "Avvocato per truffa online"),
             ("../truffa-trading-online/", "Truffa trading online"),
         ],
+        "extra_sections": [
+            (
+                "Settimana per settimana: un percorso realistico",
+                "<p><strong>Giorni 1–3:</strong> stop pagamenti, banca ed emittente carta contattati, prove al sicuro. <strong>Giorni 4–10:</strong> chargeback o richiamo bonifico avviati, denuncia presentata. <strong>Settimane 2–6:</strong> procedimenti bancari in corso, tracciatura per le cripto, controllo liste CONSOB. <strong>Oltre:</strong> valutazione civile se esistono controparti e beni identificabili. Chi segue quest'ordine non perde scadenze dietro alla speranza che la piattaforma «risolva internamente».</p>",
+            ),
+            (
+                "Il fascicolo probatorio che muove banche e legali",
+                "<ol>"
+                "<li>Screenshot del conto con URL e data visibili</li>"
+                "<li>Ogni pagamento: data, importo, beneficiario sull'estratto conto</li>"
+                "<li>Richieste di prelievo e tutte le risposte — esportate, non solo fotografate</li>"
+                "<li>Richieste di «tasse» o «sblocchi» testuali</li>"
+                "<li>Dominio esatto, nome dell'app e come ha trovato la piattaforma</li>"
+                "</ol>"
+                "<p>Con questo fascicolo un legale valuta in un giorno ciò che senza richiede settimane. Per la banca vale lo stesso: una contestazione con documenti è un caso; senza, è un reclamo.</p>",
+            ),
+        ],
         "source": "insights-it-truffa-online",
     },
     {
@@ -114,6 +131,16 @@ GUIDES = [
             ("../truffa-online/", "Truffa online: cosa fare"),
             ("../avvocato-truffa-online/", "Avvocato per truffa online"),
             ("../truffa-criptovalute/", "Truffa criptovalute"),
+        ],
+        "extra_sections": [
+            (
+                "Come impostare il reclamo perché la banca lo tratti da frode",
+                "<p>Chiami il numero antifrode, non il supporto generico. Dichiari chiaramente: «Sono stato indotto con frode ad autorizzare questi pagamenti e chiedo richiamo immediato e apertura di un caso frode con numero di riferimento». Chieda l'invio del richiamo <strong>in giornata</strong>, con segnalazione alla banca beneficiaria. Poi ribadisca per iscritto: un'email che riassume i fatti crea la traccia che conta se la risposta della banca verrà valutata dall'Arbitro Bancario Finanziario o da un legale.</p>",
+            ),
+            (
+                "Se la banca dice no",
+                "<p>Un rifiuto è un documento, non una fine. Chieda il motivo per iscritto e apra un reclamo formale con la banca — poi, se la gestione è stata lacunosa (nessun tentativo di richiamo, nessun caso frode aperto, risposte contraddittorie), valuti l'escalation all'ABF. Le banche rispondono dell'inerzia di fronte a indicatori di frode evidenti. Nulla di tutto questo garantisce la restituzione; costruisce il record su cui si appoggeranno denuncia, segnalazioni ed eventuali azioni civili.</p>",
+            ),
         ],
         "source": "insights-it-recuperare-soldi-truffa",
     },
@@ -164,6 +191,16 @@ GUIDES = [
             ("../problemi-prelievo-broker/", "Problemi di prelievo broker"),
             ("../truffa-online/", "Truffa online: cosa fare"),
         ],
+        "extra_sections": [
+            (
+                "Il percorso tipico in cifre",
+                "<p>Schema ricorrente: 250 € iniziali, saldo visibile che sale a 800 €, poi 5.000 € «per il livello successivo», un piccolo prelievo di prova riuscito come prova di fiducia — e dal primo importo a cinque cifre inizia la fase di blocco. Il conto alla fine mostra spesso un multiplo dei versamenti: quel numero è parte della scenografia, serve a calcolare la «tassa». Il danno reale è la somma dei pagamenti effettivamente versati — nient'altro.</p>",
+            ),
+            (
+                "Chargeback motivato correttamente per piattaforme di trading",
+                "<p>Imposti la contestazione come «servizio non fornito» o misrepresentation: ha pagato un servizio di investimento la cui funzione essenziale — la restituzione dei fondi — è stata rifiutata. Alleghi il rifiuto del prelievo, non solo il versamento. «Ho cambiato idea» è una motivazione debole; «il merchant rifiuta il payout contrattuale e chiede pagamenti aggiuntivi» è documentata. Una cronologia di una pagina (versamento → richiesta → rifiuto → richiesta commissioni) è il documento più efficace.</p>",
+            ),
+        ],
         "source": "insights-it-truffa-trading-online",
     },
     {
@@ -210,6 +247,16 @@ GUIDES = [
             ("../recuperare-soldi-truffa/", "Recuperare soldi truffati"),
             ("../avvocato-truffa-online/", "Avvocato truffa online"),
             ("../truffa-romance/", "Truffa romantica e crypto"),
+        ],
+        "extra_sections": [
+            (
+                "Cosa deve contenere un report di tracciatura per contare",
+                "<p>Un report utile include: la catena completa delle transazioni dal suo wallet, l'attribuzione dei cluster (quali indirizzi appartengono alla stessa entità), gli indirizzi di exchange o servizi identificati con evidenze, e una metodologia documentata che regga davanti a inquirenti e giudici. I soli screenshot di un block explorer raramente bastano — ciò che conta è la riproducibilità del percorso.</p>",
+            ),
+            (
+                "Perché l'exchange è spesso il punto di svolta",
+                "<p>I truffatori devono prima o poi convertire in valuta tradizionale — e quasi sempre passano da exchange con obblighi KYC. Lì ci sono nomi, conti e canali di prelievo. Autorità e legali possono rivolgersi a questi soggetti; alcuni exchange congelano temporaneamente su richiesta formale. Per questo la velocità conta: ogni settimana aumenta la probabilità che i fondi siano già altrove.</p>",
+            ),
         ],
         "source": "insights-it-truffa-criptovalute",
     },
@@ -260,6 +307,22 @@ GUIDES = [
             ("../recuperare-soldi-truffa/", "Recuperare soldi truffati"),
             ("../truffa-criptovalute/", "Truffa criptovalute"),
         ],
+        "extra_sections": [
+            (
+                "Come verificare un avvocato prima che verifichi il suo caso",
+                "<ol>"
+                "<li>Albo degli avvocati: la persona è davvero iscritta, con quel nome?</li>"
+                "<li>Studio verificabile e richiamo su numero pubblico, non su quello ricevuto via email</li>"
+                "<li>Incarico descritto per iscritto — niente percentuali di successo al telefono</li>"
+                "<li>Nessun anticipo in cripto o su conti personali</li>"
+                "</ol>"
+                "<p>I truffatori copiano studi reali fino alla carta intestata. Il controllo di due minuti vale qui come per il broker.</p>",
+            ),
+            (
+                "Cosa risponde la consulenza gratuita, concretamente",
+                "<p>La consulenza è gratuita. Risponde a tre domande: esiste una traccia utilizzabile (pagamenti, beneficiari, prove)? Esiste una controparte raggiungibile? Il recupero realistico supera il costo? Solo dopo decide se l'incarico ha senso economico — dipende dal livello delle sue prove, non dalle promesse.</p>",
+            ),
+        ],
         "source": "insights-it-avvocato-truffa-online",
     },
     {
@@ -308,6 +371,16 @@ GUIDES = [
             ("../truffa-trading-online/", "Truffa trading online"),
             ("../recuperare-soldi-truffa/", "Recuperare soldi truffati"),
             ("../avvocato-truffa-online/", "Avvocato truffa online"),
+        ],
+        "extra_sections": [
+            (
+                "Il calendario di escalation dopo il primo rifiuto",
+                "<p><strong>Giorno 1–2:</strong> richiesta scritta di prelievo con scadenza. <strong>Giorno 3–5:</strong> banca ed emittente contattati — gli orologi partono. <strong>Giorno 5–10:</strong> chargeback/richiamo avviati, verifica CONSOB del dominio. <strong>Giorno 10–14:</strong> denuncia in preparazione, segnalazione alle liste, valutazione legale se l'importo è rilevante. Chi segue il calendario non regala settimane alla tattica della piattaforma — ogni «attenda ancora» è una vittoria della controparte.</p>",
+            ),
+            (
+                "«Verifica compliance», «AML», «conto in revisione»: cosa c'è dietro",
+                "<p>Suonano ufficiali, ma nel contesto delle truffe sono copione: le verifiche vere finiscono con una decisione motivata, non con nuove commissioni. Domanda-test al supporto: «Mi indichi per iscritto la base giuridica e la data prevista di conclusione». Gli uffici veri rispondono. I copioni si ripetono — ed è proprio quella ripetizione il documento che serve a banca e legale.</p>",
+            ),
         ],
         "source": "insights-it-problemi-prelievo-broker",
     },
@@ -363,6 +436,16 @@ GUIDES = [
             ("../recuperare-soldi-truffa/", "Recuperare soldi truffati"),
             ("../truffa-online/", "Truffa online: cosa fare"),
         ],
+        "extra_sections": [
+            (
+                "La timeline emotiva del pig butchering, riconoscerla mentre accade",
+                "<p><strong>Settimane 1–3:</strong> contatto quotidiano, attenzioni, mai un incontro. <strong>Settimane 3–6:</strong> primi accenni agli investimenti «che uso anch'io». <strong>Settimane 6–10:</strong> primo deposito, piccolo prelievo riuscito, fiducia piena. <strong>Oltre:</strong> importi crescenti, poi blocco e «tasse». Se riconosce questa sequenza nella sua situazione attuale, si fermi al punto in cui si trova: non serve altro denaro per verificare — serve un prelievo richiesto per iscritto.</p>",
+            ),
+            (
+                "Le prove emotive sono prove legali",
+                "<p>Chat romantiche, promesse di futuro comune, pressioni affettive: esportate con data e interlocutore, dimostrano l'induzione — l'elemento che trasforma una perdita in truffa (art. 640 c.p.). Non cancelli nulla per imbarazzo: gli investigatori leggono questi copioni ogni giorno, e ciò che per lei è personale per loro è il tratto distintivo dell'organizzazione che l'ha colpita.</p>",
+            ),
+        ],
         "source": "insights-it-truffa-romance",
     },
 ]
@@ -390,7 +473,8 @@ def page_html(g: dict) -> str:
         f"<details{' open' if i == 0 else ''}><summary>{escape(q)}</summary><p>{escape(a)}</p></details>"
         for i, (q, a) in enumerate(g["faqs"])
     )
-    sections = "\n".join(f"<h2>{escape(h)}</h2>\n{body}" for h, body in g["sections"])
+    all_sections = list(g["sections"]) + list(g.get("extra_sections", []))
+    sections = "\n".join(f"<h2>{escape(h)}</h2>\n{body}" for h, body in all_sections)
     related = "\n".join(f'        <a href="{href}">{label}</a>' for href, label in g["related"])
     graph = {
         "@context": "https://schema.org",
@@ -607,6 +691,8 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "index.html").write_text(hub_html(), encoding="utf-8")
     print("Wrote it/insights/index.html")
+    from depth_long import attach
+    attach(GUIDES, "it")
     for g in GUIDES:
         dest = OUT / g["slug"]
         dest.mkdir(parents=True, exist_ok=True)

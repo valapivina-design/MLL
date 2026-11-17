@@ -72,6 +72,23 @@ GUIDES = [
             ("../abogado-estafa-online/", "Abogado para estafa online"),
             ("../estafa-trading-broker/", "Estafa de trading y brókers"),
         ],
+        "extra_sections": [
+            (
+                "Semana a semana: un calendario realista",
+                "<p><strong>Días 1–3:</strong> cortar pagos, banco avisado, pruebas a salvo. <strong>Días 4–10:</strong> chargeback o recall iniciados, denuncia presentada. <strong>Semanas 2–6:</strong> procedimientos bancarios en marcha, trazado en cripto, comprobación de listas de la CNMV. <strong>Después:</strong> valoración civil si hay contraparte y bienes identificables. Quien sigue este orden no pierde plazos esperando que la plataforma «lo solucione internamente» — esa espera es exactamente lo que el guion necesita.</p>",
+            ),
+            (
+                "El expediente probatorio que mueve a bancos y abogados",
+                "<ol>"
+                "<li>Capturas de la cuenta con URL y fecha visibles</li>"
+                "<li>Cada pago: fecha, importe y beneficiario en el extracto bancario</li>"
+                "<li>Solicitudes de retiro y todas las respuestas — exportadas, no solo fotografiadas</li>"
+                "<li>Peticiones textuales de «impuestos» o «comisiones de liberación»</li>"
+                "<li>Dominio exacto, nombre de la app y cómo la encontró</li>"
+                "</ol>"
+                "<p>Con este expediente un abogado valora en un día lo que sin él lleva semanas. Para el banco igual: una reclamación documentada es un caso; sin documentos, es una queja.</p>",
+            ),
+        ],
         "source": "insights-es-estafa-online",
     },
     {
@@ -114,6 +131,16 @@ GUIDES = [
             ("../estafa-online/", "Estafa online: qué hacer"),
             ("../abogado-estafa-online/", "Abogado para estafa online"),
             ("../broker-no-deja-retirar/", "El bróker no me deja retirar"),
+        ],
+        "extra_sections": [
+            (
+                "Cómo plantear la reclamación para que el banco la trate como fraude",
+                "<p>Llame al número de fraude, no al soporte general. Diga literalmente: «Fui inducido con engaño a autorizar estos pagos y solicito recall inmediato y apertura de caso de fraude con número de referencia». Pida que el recall salga <strong>ese mismo día</strong>, con aviso al banco receptor. Después, confirme por escrito: un email que resume los hechos crea la traza que cuenta si la respuesta del banco acaba ante el Servicio de Reclamaciones o ante un abogado.</p>",
+            ),
+            (
+                "Si el banco dice que no",
+                "<p>Una negativa es un documento, no el final. Pida el motivo por escrito y abra reclamación formal ante el banco y, si procede, ante el Servicio de Reclamaciones del Banco de España — sobre todo si la gestión fue deficiente (sin intento de recall, sin caso de fraude abierto, respuestas contradictorias). Nada de esto garantiza la devolución; construye el expediente sobre el que se apoyan denuncia, señalamientos y posibles acciones civiles.</p>",
+            ),
         ],
         "source": "insights-es-recuperar-dinero-estafa",
     },
@@ -164,6 +191,16 @@ GUIDES = [
             ("../como-saber-si-un-broker-es-fiable/", "Cómo saber si un bróker es fiable"),
             ("../estafa-online/", "Estafa online: qué hacer"),
         ],
+        "extra_sections": [
+            (
+                "El recorrido típico en cifras",
+                "<p>Esquema recurrente: 250 € iniciales, saldo visible que sube a 800 €, luego 5.000 € «para el siguiente nivel», un pequeño retiro de prueba que funciona como demostración de confianza — y desde el primer importe de cinco cifras empieza la fase de bloqueo. La cuenta suele acabar mostrando un múltiplo de lo ingresado: esa cifra es decorado, sirve para calcular la «comisión». El daño real es la suma de los pagos efectivamente realizados — nada más.</p>",
+            ),
+            (
+                "Chargeback bien motivado para plataformas de trading",
+                "<p>Planteé la disputa como «servicio no prestado» o misrepresentation: pagó un servicio de inversión cuya función esencial — la devolución de fondos — fue denegada. Adjunte el rechazo del retiro, no solo el ingreso. «Cambié de opinión» es motivación débil; «el comercio deniega el pago contractual y exige comisiones adicionales» está documentado. Una cronología de una página (ingreso → solicitud → rechazo → petición de comisiones) es el documento más eficaz.</p>",
+            ),
+        ],
         "source": "insights-es-estafa-trading-broker",
     },
     {
@@ -211,6 +248,16 @@ GUIDES = [
             ("../recuperar-dinero-estafa/", "Recuperar dinero estafado"),
             ("../estafa-sentimental-criptomonedas/", "Estafa sentimental y cripto"),
             ("../abogado-estafa-online/", "Abogado para estafa online"),
+        ],
+        "extra_sections": [
+            (
+                "Qué debe contener un informe de trazado para que sirva",
+                "<p>Un informe útil incluye: la cadena completa de transacciones desde su wallet, la atribución de clusters (qué direcciones pertenecen a la misma entidad), las direcciones de exchanges o servicios identificados con evidencias y una metodología documentada que resista ante investigadores y jueces. Las capturas de un explorador de bloques rara vez bastan — lo que cuenta es que el recorrido sea reproducible.</p>",
+            ),
+            (
+                "Por qué el exchange suele ser el punto de inflexión",
+                "<p>Los estafadores deben convertir tarde o temprano a moneda tradicional — y casi siempre pasan por exchanges con obligaciones KYC. Ahí hay nombres, cuentas y canales de retiro. Autoridades y abogados pueden dirigirse a esos actores; algunos exchanges congelan temporalmente ante una solicitud formal. Por eso la rapidez importa: cada semana aumenta la probabilidad de que los fondos ya estén en otra parte.</p>",
+            ),
         ],
         "source": "insights-es-estafa-criptomonedas",
     },
@@ -261,6 +308,16 @@ GUIDES = [
             ("../estafa-trading-broker/", "Estafa de trading y brókers"),
             ("../abogado-estafa-online/", "Abogado para estafa online"),
         ],
+        "extra_sections": [
+            (
+                "El calendario de escalada tras el primer rechazo",
+                "<p><strong>Día 1–2:</strong> solicitud escrita de retiro con plazo. <strong>Día 3–5:</strong> banco y emisor avisados — los relojes empiezan a correr. <strong>Día 5–10:</strong> chargeback/recall iniciados, comprobación de listas de la CNMV. <strong>Día 10–14:</strong> denuncia en preparación, señalamiento a las listas y valoración legal si el importe es relevante. Cada «espere unos días más» es una victoria del guion: la plataforma gana tiempo exactamente cuando usted se lo concede.</p>",
+            ),
+            (
+                "«Verificación de cumplimiento», «AML», «cuenta en revisión»: qué hay detrás",
+                "<p>Suenan oficiales, pero en este contexto son guion: las verificaciones reales terminan con una decisión motivada, no con nuevas comisiones. Pregunta de prueba al soporte: «Indíquenme por escrito la base legal y la fecha prevista de finalización». Los departamentos reales responden. Los guiones se repiten — y esa repetición es precisamente el documento que le sirve a banco y abogado.</p>",
+            ),
+        ],
         "source": "insights-es-broker-no-deja-retirar",
     },
     {
@@ -309,6 +366,22 @@ GUIDES = [
             ("../estafa-online/", "Estafa online: qué hacer"),
             ("../recuperar-dinero-estafa/", "Recuperar dinero estafado"),
             ("../estafa-criptomonedas/", "Estafa criptomonedas"),
+        ],
+        "extra_sections": [
+            (
+                "Cómo verificar a un abogado antes de que verifique su caso",
+                "<ol>"
+                "<li>Colegio de Abogados: ¿la persona está realmente colegiada con ese nombre?</li>"
+                "<li>Despacho verificable y devolución de llamada al número público, no al que le dieron por email</li>"
+                "<li>Encargo descrito por escrito — nada de porcentajes de éxito por teléfono</li>"
+                "<li>Nada de anticipos en cripto ni a cuentas personales</li>"
+                "</ol>"
+                "<p>Los estafadores copian despachos reales hasta el membrete. La comprobación de dos minutos vale aquí igual que con el bróker.</p>",
+            ),
+            (
+                "Qué responde la consulta gratuita, en concreto",
+                "<p>La consulta es gratuita. Responde a tres preguntas: ¿existe rastro utilizable (pagos, beneficiarios, pruebas)? ¿existe contraparte alcanzable? ¿supera la recuperación realista el coste? Solo después se decide si el encargo tiene sentido económico — depende del nivel de sus pruebas, no de las promesas.</p>",
+            ),
         ],
         "source": "insights-es-abogado-estafa-online",
     },
@@ -364,6 +437,16 @@ GUIDES = [
             ("../recuperar-dinero-estafa/", "Recuperar dinero estafado"),
             ("../estafa-online/", "Estafa online: qué hacer"),
         ],
+        "extra_sections": [
+            (
+                "La línea temporal emocional del pig butchering: reconocerla mientras ocurre",
+                "<p><strong>Semanas 1–3:</strong> contacto diario, atenciones, nunca un encuentro. <strong>Semanas 3–6:</strong> primeras menciones a inversiones «que yo también uso». <strong>Semanas 6–10:</strong> primer depósito, pequeño retiro que funciona, confianza plena. <strong>Después:</strong> importes crecientes, bloqueo e «impuestos». Si reconoce esta secuencia en su situación actual, deténgase donde está: no hace falta más dinero para comprobar — hace falta un retiro solicitado por escrito.</p>",
+            ),
+            (
+                "Las pruebas emocionales son pruebas legales",
+                "<p>Chats románticos, promesas de futuro común, presiones afectivas: exportadas con fecha e interlocutor, demuestran la inducción — el elemento que convierte una pérdida en estafa. No borre nada por vergüenza: los investigadores leen estos guiones a diario, y lo que para usted es personal para ellos es el rasgo distintivo de la organización que la atacó.</p>",
+            ),
+        ],
         "source": "insights-es-estafa-sentimental",
     },
     {
@@ -418,6 +501,23 @@ GUIDES = [
             ("../broker-no-deja-retirar/", "El bróker no me deja retirar"),
             ("../estafa-online/", "Estafa online: qué hacer"),
         ],
+        "extra_sections": [
+            (
+                "Las cinco comprobaciones que no fallan, en orden",
+                "<ol>"
+                "<li><strong>CNMV:</strong> registros oficiales y lista de chiringuitos — el nombre exacto y el dominio</li>"
+                "<li><strong>Regulador declarado:</strong> verificación en la web del regulador, no en el PDF que le envían</li>"
+                "<li><strong>Dominio:</strong> antigüedad y clonación (¿meses de vida con «10 años de experiencia»?)</li>"
+                "<li><strong>Retiro de prueba:</strong> antes de cualquier importe serio</li>"
+                "<li><strong>Búsqueda inversa:</strong> dominio + «estafa», «withdrawal problem», «CNMV»</li>"
+                "</ol>"
+                "<p>Si una sola falla, la respuesta está dada. Las cinco juntas tardan menos de una hora — y es la hora mejor invertida antes de cualquier inversión.</p>",
+            ),
+            (
+                "Si ya está dentro: verificar no es traicionar",
+                "<p>Muchos afectados posponen la comprobación por miedo a confirmar sus sospechas — y la plataforma cuenta con ello. Haga el test hoy: solicite un retiro parcial por escrito y compruebe el dominio en la lista de chiringuitos de la CNMV. El resultado no empeora su situación; la documenta. Y esa documentación es exactamente lo que necesita para actuar antes de que cierren el telón.</p>",
+            ),
+        ],
         "source": "insights-es-broker-fiable",
     },
 ]
@@ -446,7 +546,8 @@ def page_html(g: dict) -> str:
         f"<details{' open' if i == 0 else ''}><summary>{escape(q)}</summary><p>{escape(a)}</p></details>"
         for i, (q, a) in enumerate(g["faqs"])
     )
-    sections = "\n".join(f"<h2>{escape(h)}</h2>\n{body}" for h, body in g["sections"])
+    all_sections = list(g["sections"]) + list(g.get("extra_sections", []))
+    sections = "\n".join(f"<h2>{escape(h)}</h2>\n{body}" for h, body in all_sections)
     related = "\n".join(f'        <a href="{href}">{label}</a>' for href, label in g["related"])
     graph = {
         "@context": "https://schema.org",
@@ -663,6 +764,8 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "index.html").write_text(hub_html(), encoding="utf-8")
     print("Wrote es/insights/index.html")
+    from depth_long import attach
+    attach(GUIDES, "es")
     for g in GUIDES:
         dest = OUT / g["slug"]
         dest.mkdir(parents=True, exist_ok=True)

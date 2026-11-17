@@ -70,6 +70,28 @@ GUIDES = [
             ("../chargeback-investment-fraud/", "Chargeback after investment fraud"),
             ("../recover-stolen-crypto.html", "Recover stolen crypto"),
         ],
+        "extra_sections": [
+            (
+                "A realistic timeline: what withdrawal friction looks like week by week",
+                "<p><strong>Days 1–3:</strong> a pending status with a transaction reference can be normal. <strong>Days 4–10:</strong> you should have a written explanation with a date — request it in writing, not on a call. <strong>Weeks 2–4:</strong> if the story changes (new fee, new “department”, new document demand), treat the file as disputed and start the bank-side clocks. <strong>After week 4:</strong> chargeback and recall windows may already be closing; the evidence pack matters more than another support ticket.</p>"
+                "<p>The pattern that separates delay from trap is <em>consistency</em>. One explanation, repeated, with verifiable references, is a backlog. Three different explanations in three weeks is a script.</p>",
+            ),
+            (
+                "The evidence pack that moves banks and counsel",
+                "<ol>"
+                "<li>Account dashboard screenshots with the URL and date visible</li>"
+                "<li>Every deposit: date, amount, method, beneficiary name on the statement</li>"
+                "<li>Withdrawal requests and every reply, exported (not just screenshots of your own screen)</li>"
+                "<li>Any demand for tax, unlock, or compliance payment — verbatim</li>"
+                "<li>The exact domain and app name, plus how you first found the platform</li>"
+                "</ol>"
+                "<p>Counsel can do in a day with this pack what takes a month of back-and-forth without it. Banks treat it the same way: a dispute with documents is a case; a dispute without them is a complaint.</p>",
+            ),
+            (
+                "Why you should not wait for the broker before calling your bank",
+                "<p>Every payment rail has its own clock, and none of them pause while a platform “investigates”. Card disputes, wire recalls, and even crypto exchange freezes all degrade with time. Running the bank track in parallel with the broker track costs nothing; running it after the broker track ends often costs the whole claim.</p>",
+            ),
+        ],
         "source": "insights-broker-withdrawal",
     },
     {
@@ -134,6 +156,28 @@ GUIDES = [
             ("../recover-stolen-crypto.html", "Recover stolen crypto"),
             ("../report-a-scam.html", "How to report a scam"),
         ],
+        "extra_sections": [
+            (
+                "How the second scam finds you",
+                "<p>Victim lists are sold and resold. Within days of a loss, “recovery specialists” may call knowing your name, the platform, and even the amount — details that feel like proof of legitimacy. They are proof of a leaked database, nothing more. Some operations are run by the same group that took the first loss, wearing a second costume.</p>"
+                "<p>The scripts are consistent: your money was “located” on a blockchain or in a seized account, a refundable “release fee” stands between you and payout, and a lawyer, police officer, or regulator is available to “confirm” — all played by the same room.</p>",
+            ),
+            (
+                "A five-question test for any recovery offer",
+                "<ol>"
+                "<li>Did they contact you first? Unsolicited recovery contact is the single strongest predictor of fraud.</li>"
+                "<li>Do they guarantee a result, or name a percentage? No legitimate professional does.</li>"
+                "<li>Is payment demanded before work begins — especially in crypto, gift cards, or wire?</li>"
+                "<li>Can you verify the person independently: bar number checked with the bar association, company in the official register, office you can call back on a published number?</li>"
+                "<li>Do they discourage you from talking to your bank or the police? That is isolation, and it is deliberate.</li>"
+                "</ol>"
+                "<p>One failed answer is a warning. Two is a decision.</p>",
+            ),
+            (
+                "What a confidential legal review actually costs you upfront",
+                "<p>The consultation is free. We first validate your claim and assess its prospects and feasibility — and that depends on the level of proof you can bring. You will hear clearly if a matter is not economically viable; nobody needs a second loss dressed as diligence.</p>",
+            ),
+        ],
         "source": "insights-fund-recovery",
     },
     {
@@ -187,6 +231,21 @@ GUIDES = [
             ("../broker-withdrawal-problem/", "Broker withdrawal problem"),
             ("../recover-stolen-crypto.html", "Recover stolen crypto"),
         ],
+        "extra_sections": [
+            (
+                "How to frame the dispute so issuers act on it",
+                "<p>Issuers process thousands of disputes; the framing decides which queue yours enters. Lead with the <strong>service not provided</strong> or <strong>misrepresentation</strong> angle: you paid for an investment service that refused its core function — returning your funds. Attach the withdrawal refusal, not just the deposit. “I changed my mind about investing” is a weak frame and often a fast denial; “the merchant blocked the contracted payout and demanded extra fees” is a documented one.</p>"
+                "<p>Write a one-page chronology: deposit dates, withdrawal request dates, refusal dates, fee demands. Dispute agents work from documents, and a clean chronology is the document they use most.</p>",
+            ),
+            (
+                "What chargeback cannot fix",
+                "<p>Chargeback reaches card transactions only. Money you moved by wire, crypto, or e-wallet top-up sits outside the card networks — each of those rails needs its own route (recall, tracing, formal complaint). It also cannot help against a merchant that delivers <em>something</em> and argues terms; that becomes a contractual fight, where the evidence pack decides. And a successful chargeback is not a judgment: it returns a payment, it does not establish fraud. For that you still need the report and, where the amounts justify it, counsel.</p>",
+            ),
+            (
+                "If the merchant “fights back”",
+                "<p>Platforms sometimes respond to disputes with screenshots of your login history and clicked terms. Expect it. Your counter is the withdrawal record: the moment a payout was refused or conditioned on new payments, the terms argument weakens. Keep every post-dispute message from the platform — attempts to “settle” the dispute in exchange for dropping it should go straight into the file, not into a reply.</p>",
+            ),
+        ],
         "source": "insights-chargeback",
     },
     {
@@ -239,6 +298,27 @@ GUIDES = [
             ("../bank-dispute-wire-transfer-scam/", "Bank dispute &amp; wire scams"),
             ("../broker-withdrawal-problem/", "Broker withdrawal problem"),
         ],
+        "extra_sections": [
+            (
+                "Why the clock starts before you feel scammed",
+                "<p>Most card networks count from the <strong>transaction date</strong> or from a fixed service-delivery date — not from the day the platform stopped answering. A deposit made six months ago can be outside the window even if the withdrawal was refused last week. Some issuers apply a discovery rule for fraud; others do not. The only safe assumption is the short one: ask your issuer, in writing, which deadline applies to each charge.</p>"
+                "<p>This is also why “wait, the broker promised to fix it this month” is the most expensive sentence in this niche. The promise costs the platform nothing and can cost you the entire dispute window.</p>",
+            ),
+            (
+                "The one-call checklist for your card issuer",
+                "<ol>"
+                "<li>“What is the dispute deadline for each of these transactions?” — get it per charge, not in general.</li>"
+                "<li>“Which reason code applies: services not provided, or fraud?” — the code shapes the evidence.</li>"
+                "<li>“Can I file the dispute today and supplement documents later?” — many issuers allow it; filing preserves the window.</li>"
+                "<li>“What is the reference number and the agent’s name?” — every call, logged.</li>"
+                "</ol>"
+                "<p>If the first agent gives a vague answer, escalate. Deadline questions have exact answers; you are entitled to yours.</p>",
+            ),
+            (
+                "Past the deadline: what remains open",
+                "<p>A closed chargeback window ends one track, not the file. Bank complaint procedures, regulator reports, police complaints, and civil claims run on different clocks — some measured in years. The denial letter itself becomes evidence: it documents when you acted and how the merchant responded. Counsel reviewing an older loss will ask for it early, so keep it with the rest of the pack.</p>",
+            ),
+        ],
         "source": "insights-chargeback-deadline",
     },
     {
@@ -286,6 +366,21 @@ GUIDES = [
             ("../deadline-for-chargeback/", "Chargeback deadlines"),
             ("../fund-recovery-services/", "Fund recovery services"),
             ("../report-a-scam.html", "How to report a scam"),
+        ],
+        "extra_sections": [
+            (
+                "How to request the recall so the bank treats it as fraud, not a favor",
+                "<p>Call the fraud line, not general support. State clearly: “I believe I was induced by fraud to authorize these transfers, and I request an immediate recall and a fraud case reference.” Ask for the recall to go out <strong>the same day</strong>, with the beneficiary bank flagged for fraud. Then follow up in writing — an email or secure message restating the facts creates the paper trail that matters if the bank’s response is later reviewed by an ombudsman or counsel.</p>"
+                "<p>If any transfers were unauthorized (account takeover, remote-access tool), say so explicitly and first. Unauthorized transactions carry stronger protections in most jurisdictions than authorized-but-induced ones, and mixing the two categories weakens the stronger claim.</p>",
+            ),
+            (
+                "SEPA, SWIFT, and local rails: why the route matters",
+                "<p>A euro transfer inside SEPA moves on different recall mechanics than a SWIFT wire to a third country, and both differ from instant-payment rails that settle in seconds. The practical rule does not change — same-day request, fraud reference, written follow-up — but the realistic odds do: recalls work best while funds sit at the first receiving institution, and worst once they have been layered through two or three banks. Your bank can often tell you within days whether the beneficiary bank responded; that response is itself useful evidence.</p>",
+            ),
+            (
+                "If the bank says no",
+                "<p>A refusal is a document, not an ending. Ask for the rejection reason in writing and file a formal complaint with the bank — then escalate to the relevant ombudsman or supervisory complaint channel if the handling was sloppy (no recall attempt, no fraud case opened, contradictory answers). Banks have been held to account for failing to act on clear fraud indicators. None of this guarantees a return; it builds the record that every later track — police, regulator, civil claim — will lean on.</p>",
+            ),
         ],
         "source": "insights-wire-dispute",
     },
@@ -340,6 +435,27 @@ GUIDES = [
             ("../online-trading-forex-scams.html", "Forex &amp; trading scams"),
             ("../fund-recovery-services/", "Fund recovery services"),
         ],
+        "extra_sections": [
+            (
+                "The three defendants you might actually have",
+                "<p><strong>The platform entity</strong> — the company named in your statements and payment beneficiary records; sometimes a shell, sometimes a real operator with attachable assets. <strong>The payment intermediaries</strong> — banks, processors, or exchanges that moved the money; in some jurisdictions they carry duties around fraud indicators and can be drawn into complaints or claims. <strong>The individuals</strong> — directors and signatories where the entity is a shell; piercing toward them is jurisdiction-specific but sometimes the only path to a collectible target.</p>"
+                "<p>A sober review maps all three before spending on any one. Suing the logo you saw in an ad, when the money went elsewhere, is the classic way to win nothing slowly.</p>",
+            ),
+            (
+                "What a viability check looks at before anyone files",
+                "<ol>"
+                "<li>Collectability: are there identified assets, a regulated entity, or an insurer anywhere in the chain?</li>"
+                "<li>Forum: is there a court or arbitration route with jurisdiction that can actually reach the defendant?</li>"
+                "<li>Economics: does the likely recovery exceed the cost of getting there — filing, service abroad, translation, enforcement?</li>"
+                "<li>Evidence: can you prove the inducement and the refusal, or only the loss?</li>"
+                "</ol>"
+                "<p>Two weak answers usually mean the honest advice is to pursue reports and payment-rail remedies instead of a lawsuit. That is not defeat; it is triage.</p>",
+            ),
+            (
+                "Where small and mid-size claims actually get heard",
+                "<p>Not every claim needs a full lawsuit. Financial ombudsman schemes (where a regulated firm is involved), small-claims tracks, and regulator-complaint escalations resolve real disputes at low cost — but only when the counterparty is inside the system. For offshore operators with no assets in reach, the realistic instruments are criminal complaint, payment-rail remedies, and coordinated action with other victims. Counsel’s job at the start is to tell you which list your case belongs to — before you pay to find out.</p>",
+            ),
+        ],
         "source": "insights-sue-forex",
     },
 ]
@@ -361,8 +477,9 @@ def page_html(g: dict) -> str:
         f"<details{' open' if i == 0 else ''}><summary>{escape(q)}</summary><p>{escape(a)}</p></details>"
         for i, (q, a) in enumerate(g["faqs"])
     )
+    all_sections = list(g["sections"]) + list(g.get("extra_sections", []))
     sections = "\n".join(
-        f"<h2>{escape(h)}</h2>\n{body}" for h, body in g["sections"]
+        f"<h2>{escape(h)}</h2>\n{body}" for h, body in all_sections
     )
     related = "\n".join(
         f'        <a href="{href}">{label}</a>' for href, label in g["related"]
@@ -383,8 +500,8 @@ def page_html(g: dict) -> str:
                 "headline": g["h1"],
                 "description": g["desc"],
                 "inLanguage": "en-US",
-                "datePublished": "2026-11-16",
-                "dateModified": "2026-11-16",
+                "datePublished": "2026-11-17",
+                "dateModified": "2026-11-17",
                 "author": {"@type": "Organization", "name": "Mike Levy Law", "url": f"{SITE}/"},
                 "publisher": {"@type": "Organization", "name": "Mike Levy Law", "url": f"{SITE}/"},
                 "mainEntityOfPage": {"@type": "WebPage", "@id": canon},
@@ -461,7 +578,7 @@ def page_html(g: dict) -> str:
     <div class="cta-strip">
       <div>
         <strong>Need a confidential review?</strong>
-        <p>If this matches your situation, we can compare your records with the public pattern and advise on reporting or litigation pathways — without obligation. No recovery guarantees.</p>
+        <p>The consultation is free. We first need to validate your claim and understand its prospects and feasibility, and that depends on the level of proof. No recovery guarantees.</p>
       </div>
       <a href="{contact}">Request a consultation</a>
     </div>
@@ -481,6 +598,8 @@ def page_html(g: dict) -> str:
 
 
 def main() -> None:
+    from depth_long import attach
+    attach(GUIDES, "en")
     for g in GUIDES:
         dest = OUT / g["slug"]
         dest.mkdir(parents=True, exist_ok=True)

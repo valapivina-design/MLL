@@ -67,6 +67,23 @@ GUIDES = [
             ("../anlagebetrug-was-tun/", "Anlagebetrug: was tun?"),
             ("../anlagebetrug-melden/", "Anlagebetrug melden / anzeigen"),
         ],
+        "extra_sections": [
+            (
+                "Woche für Woche: so sieht ein realistischer Ablauf aus",
+                "<p><strong>Tage 1–3:</strong> Zahlungswege identifizieren, Bank und Kartenherausgeber kontaktieren, Beweise sichern. <strong>Tage 4–10:</strong> Chargeback beantragen, Rückruf anfordern, Strafanzeige stellen. <strong>Wochen 2–6:</strong> Bankverfahren laufen, Tracing-Auftrag bei Krypto, Warnlisten-Abgleich. <strong>Danach:</strong> zivilrechtliche Prüfung, falls identifizierbare Gegner und Vermögenswerte existieren. Wer diese Reihenfolge einhält, verliert keine Fristen an die Hoffnung, die Plattform „löse das intern“.</p>",
+            ),
+            (
+                "Die Beweismappe, die Banken und Anwälte wirklich weiterbringt",
+                "<ol>"
+                "<li>Screenshots des Kontos mit URL und Datum</li>"
+                "<li>Jede Zahlung: Datum, Betrag, Empfänger laut Kontoauszug</li>"
+                "<li>Auszahlungsanfragen und alle Antworten — exportiert, nicht nur abfotografiert</li>"
+                "<li>Gebührenforderungen wörtlich („Steuer“, „Freigabe“, „Provision“)</li>"
+                "<li>Exakte Domain, App-Name und wie Sie die Plattform gefunden haben</li>"
+                "</ol>"
+                "<p>Mit dieser Mappe prüft ein Anwalt an einem Tag, was ohne sie Wochen dauert. Für die Bank gilt dasselbe: Ein Dispute mit Dokumenten ist ein Fall — ohne sie eine Beschwerde.</p>",
+            ),
+        ],
         "source": "insights-de-anlagebetrug-geld-zurueck",
     },
     {
@@ -122,6 +139,22 @@ GUIDES = [
             ("../krypto-betrug-anwalt/", "Krypto-Betrug Anwalt"),
             ("../anlagebetrug-erkennen/", "Anlagebetrug erkennen"),
         ],
+        "extra_sections": [
+            (
+                "So prüfen Sie einen Anwalt, bevor er Ihren Fall prüft",
+                "<ol>"
+                "<li>Rechtsanwaltsregister: Ist die Person wirklich zugelassen — unter diesem Namen?</li>"
+                "<li>Kanzleiadresse und Rückruf über die öffentlich bekannte Nummer, nicht die aus der E-Mail</li>"
+                "<li>Klare Aufgabenbeschreibung schriftlich — keine Erfolgsprozente am Telefon</li>"
+                "<li>Keine Vorauszahlung in Krypto oder auf Privatkonten</li>"
+                "</ol>"
+                "<p>Betrüger kopieren echte Kanzleien bis ins Briefpapier. Die Zwei-Minuten-Prüfung gilt hier genauso wie beim Broker.</p>",
+            ),
+            (
+                "Was die kostenlose Ersteinschätzung konkret beantwortet",
+                "<p>Die Ersteinschätzung ist kostenlos. Sie beantwortet drei Fragen: Gibt es eine verwertbare Spur (Zahlungsweg, Empfänger, Beweise)? Gibt es eine erreichbare Gegenpartei? Und übersteigt der realistische Ertrag den Aufwand? Erst danach entscheiden Sie, ob ein Mandat wirtschaftlich sinnvoll ist — das hängt vom Stand Ihrer Beweise ab, nicht von Versprechen.</p>",
+            ),
+        ],
         "source": "insights-de-anlagebetrug-anwalt",
     },
     {
@@ -171,6 +204,16 @@ GUIDES = [
             ("../bitcoin-geld-zurueckholen/", "Bitcoin zurückholen"),
             ("../anlagebetrug-melden/", "Betrug melden / anzeigen"),
         ],
+        "extra_sections": [
+            (
+                "Was ein Tracing-Bericht enthalten muss, damit er zählt",
+                "<p>Ein brauchbarer Report enthält: die vollständige Transaktionskette von Ihrer Wallet, Cluster-Zuordnung (welche Adressen zur selben Entität gehören), identifizierte Börsen- oder Dienstleister-Adressen mit Belegen, und eine Dokumentation, die vor Gericht und gegenüber Ermittlern Bestand hat. Screenshots eines Blockexplorers allein reichen selten — entscheidend ist die nachvollziehbare Methodik.</p>",
+            ),
+            (
+                "Warum die Börse oft der Wendepunkt ist",
+                "<p>Scammer müssen irgendwann in Fiat wechseln — und das geschieht meist über Börsen mit KYC-Pflicht. Dort liegen Namen, Konten und Auszahlungswege. Ermittler und Anwälte können diese Stellen anschreiben; einige Börsen frieren Guthaben auf formale Anfrage vorläufig ein. Deshalb zählt Geschwindigkeit: Jede Woche erhöht die Chance, dass die Coins längst weitergezogen sind.</p>",
+            ),
+        ],
         "source": "insights-de-krypto-betrug-geld-zurueck",
     },
     {
@@ -218,6 +261,21 @@ GUIDES = [
             ("../krypto-betrug-geld-zurueck/", "Krypto-Betrug: Geld zurück"),
             ("../anlagebetrug-anwalt/", "Anlagebetrug Anwalt"),
             ("../anlagebetrug-melden/", "Betrug melden / anzeigen"),
+        ],
+        "extra_sections": [
+            (
+                "Typische Fallstrukturen, die wir bei Krypto-Mandaten sehen",
+                "<p><strong>Fake-Exchange:</strong> Die gesamte Plattform ist Kulisse; Tracing beginnt bei der Einzahlungsadresse. <strong>Romance/Pig-Butchering:</strong> Zahlungen liefen über Monate über wechselnde Adressen — die Chronologie wird zum zentralen Beweis. <strong>Remote-Zugriff (AnyDesk):</strong> Hier liegt oft ein unbefugter Zugriff vor, der bankenrechtlich anders zu bewerten ist als ein freiwilliger Transfer. <strong>„Recovery“-Nachschub:</strong> Zweitkontakt derselben Tätergruppe als angeblicher Rettungsdienst — bitte keinerlei Angaben zum ersten Fall machen.</p>",
+            ),
+            (
+                "Diese Unterlagen beschleunigen die Mandatsprüfung",
+                "<ol>"
+                "<li>Wallet-Adressen (eigene und Empfänger) und Transaktions-Hashes</li>"
+                "<li>Einzahlungsweg: Börse, Karte, Überweisung — mit Belegen</li>"
+                "<li>Domain/App der Plattform und Name der „Berater“</li>"
+                "<li>Exportierte Chats (Telegram/WhatsApp) statt Screenshots einzelner Nachrichten</li>"
+                "</ol>",
+            ),
         ],
         "source": "insights-de-krypto-betrug-anwalt",
     },
@@ -268,6 +326,16 @@ GUIDES = [
             ("../krypto-betrug-anwalt/", "Krypto-Betrug Anwalt"),
             ("../anlagebetrug-was-tun/", "Anlagebetrug: was tun?"),
         ],
+        "extra_sections": [
+            (
+                "Der Ablauf einer realistischen Bitcoin-Rückverfolgung",
+                "<p><strong>Schritt 1:</strong> Alle Hashes und Adressen in einer Chronologie — auch kleine Testüberweisungen. <strong>Schritt 2:</strong> Analyse, ob Empfängeradressen zu bekannten Scam-Clustern oder Börsen gehören. <strong>Schritt 3:</strong> Bei Börsen-Kontakt: Strafanzeige sofort, damit Ermittler Daten sichern können, bevor sie gelöscht oder weiterverschoben werden. <strong>Schritt 4:</strong> Bewertung, ob zivilrechtliche Ansprüche gegen identifizierbare Personen bestehen. Jeder Schritt hat eigene Fristen — der Engpass ist fast immer Schritt 3.</p>",
+            ),
+            (
+                "Häufige Denkfehler nach einem Bitcoin-Verlust",
+                "<p>„Der Betrag ist zu klein für die Polizei“ — falsch: Anzeigen sind kostenlos und werden gebündelt. „Die Coins sind anonym, also weg“ — falsch: pseudonym ist nicht anonym; Auszahlungspunkte sind oft reguliert. „Ein teurer Dienst verspricht 90 % Erfolg“ — das Versprechen selbst ist das Warnsignal. Realismus ist hier die produktivste Haltung: schnell handeln, sauber dokumentieren, nichts garantieren lassen.</p>",
+            ),
+        ],
         "source": "insights-de-bitcoin-geld-zurueckholen",
     },
     {
@@ -317,6 +385,16 @@ GUIDES = [
             ("../anlagebetrug-geld-zurueck/", "Anlagebetrug: Geld zurück"),
             ("../online-betrug-geld-zurueckfordern/", "Online-Betrug: Geld zurückfordern"),
             ("../anlagebetrug-melden/", "Betrug melden / anzeigen"),
+        ],
+        "extra_sections": [
+            (
+                "So sieht der typische Verlauf in Zahlen aus",
+                "<p>Ein häufiges Muster: 250 € Start, sichtbarer Gewinn auf 800 €, dann 5.000 € „für den nächsten Level“, ein kleiner erfolgreicher Test-Payout als Vertrauensbeweis — und ab dem ersten fünfstelligen Betrag beginnt die Sperrphase. Das Konto zeigt am Ende oft ein Vielfaches der Einzahlungen. Diese Zahl ist Teil der Täuschung: Sie existiert nur, damit die „Steuer“ darauf berechnet werden kann. Ihr echter Schaden ist die Summe der tatsächlich geleisteten Zahlungen — nichts sonst.</p>",
+            ),
+            (
+                "Chargeback richtig begründen bei Trading-Plattformen",
+                "<p>Formulieren Sie den Dispute als „Leistung nicht erbracht“ bzw. Täuschung: Sie haben eine Investment-Dienstleistung bezahlt, deren Kern — die Auszahlung — verweigert wurde. Legen Sie die Auszahlungsverweigerung bei, nicht nur die Einzahlung. „Ich habe es mir anders überlegt“ ist eine schwache Begründung; „der Händler verweigert die vertragliche Auszahlung und fordert Zusatzzahlungen“ ist eine dokumentierte. Eine einseitige Chronologie (Einzahlung → Antrag → Ablehnung → Gebührenforderung) ist das wirksamste Dokument.</p>",
+            ),
         ],
         "source": "insights-de-trading-betrug-geld-zurueck",
     },
@@ -369,6 +447,22 @@ GUIDES = [
             ("../anlagebetrug-geld-zurueck/", "Anlagebetrug: Geld zurück"),
             ("../anlagebetrug-melden/", "Anlagebetrug melden / anzeigen"),
             ("../anlagebetrug-erkennen/", "Anlagebetrug erkennen"),
+        ],
+        "extra_sections": [
+            (
+                "Fehler, die Fälle in den ersten Tagen ruinieren",
+                "<ul>"
+                "<li>Den „Berater“ warnen („Ich gehe zur Polizei“) — danach werden Konten gelöscht</li>"
+                "<li>Apps deinstallieren, bevor Chats exportiert sind</li>"
+                "<li>Auf das angebotene „Rückzahlungsangebot“ der Plattform eingehen — meist die nächste Zahlungsfalle</li>"
+                "<li>Öffentlich posten mit Namen und Beträgen — Recovery-Betrüger lesen mit</li>"
+                "</ul>"
+                "<p>Die richtige Haltung: freundlich-neutral kommunizieren, parallel Beweise sichern und die Bank-Uhren starten.</p>",
+            ),
+            (
+                "Wenn Sie Fernzugriff (AnyDesk, TeamViewer) erlaubt haben",
+                "<p>Dann gilt Sonder tempo: Software deinstallieren, Passwörter ändern, Zwei-Faktor-Authentifizierung neu aufsetzen, Bank informieren, dass ein Fremdzugriff möglich war. Bei unbefugten Transaktionen nach Fernzugriff ist die Rechtslage für Sie oft günstiger als bei selbst überwiesenen Beträgen — sagen Sie der Bank ausdrücklich, dass ein Fremdzugriff stattfand. Mischen Sie die beiden Kategorien nicht in einer Erzählung.</p>",
+            ),
         ],
         "source": "insights-de-anlagebetrug-was-tun",
     },
@@ -424,6 +518,16 @@ GUIDES = [
             ("../anlagebetrug-geld-zurueck/", "Anlagebetrug: Geld zurück"),
             ("../krypto-betrug-geld-zurueck/", "Krypto-Betrug: Geld zurück"),
         ],
+        "extra_sections": [
+            (
+                "Musteraufbau einer verwertbaren Anzeige",
+                "<p>Eine starke Anzeige hat vier Teile: <strong>1. Chronologie</strong> (eine Seite: Kontakt, Zahlungen, Auszahlungsverweigerung). <strong>2. Zahlungsnachweise</strong> mit Empfängern und Referenzen. <strong>3. Tätermerkmale</strong>: Domains, Telefonnummern, Namen der „Berater“, Wallet-Adressen. <strong>4. Beweisanlagen</strong> als nummerierte PDFs. „Ich wurde im Internet betrogen“ erzeugt einen Vorgang ohne Angriffspunkt; diese vier Teile erzeugen einen Fall, an dem Ermittler arbeiten können.</p>",
+            ),
+            (
+                "Warum die Anzeige auch Ihnen selbst hilft",
+                "<p>Banken verlangen bei Recall und Chargeback oft eine Anzeigennummer. Börsen reagieren auf Sperranfragen häufig nur mit behördlichem Bezug. Und falls es zu einem Ermittlungsverfahren kommt: Nur wer angezeigt hat, kann sich später als Geschädigter beteiligen. Die Anzeige kostet eine Stunde — sie ist der Beleg, dass Sie gehandelt haben, während andere warteten.</p>",
+            ),
+        ],
         "source": "insights-de-anlagebetrug-melden",
     },
     {
@@ -466,6 +570,16 @@ GUIDES = [
             ("../anlagebetrug-geld-zurueck/", "Anlagebetrug: Geld zurück"),
             ("../trading-betrug-geld-zurueck/", "Trading-Betrug: Geld zurück"),
             ("../anlagebetrug-melden/", "Betrug melden / anzeigen"),
+        ],
+        "extra_sections": [
+            (
+                "Entscheidungsmatrix: welcher Weg zu welcher Zahlung passt",
+                "<p><strong>Kreditkarte:</strong> Chargeback, Frist beachten, Grund „Leistung nicht erbracht“. <strong>Lastschrift:</strong> Rückbuchung beim Kreditinstitut — innerhalb der gesetzlichen Fristen oft unkompliziert, bei autorisierten Mandaten mit Widerspruch. <strong>SEPA-Überweisung:</strong> Recall über die eigene Bank, am selben Tag. <strong>Instant Payment:</strong> wie Überweisung, nur schneller handeln. <strong>PayPal:</strong> Käuferschutz-Fall im eigenen System. <strong>Krypto:</strong> Tracing und Anzeige, kein Rückbuchungsrecht. <strong>Bargeld-Transfer (Western Union u. ä.):</strong> praktisch nur Anzeige und Ermittlungen.</p>",
+            ),
+            (
+                "Warum „zurückfordern“ schriftlich beginnt",
+                "<p>Jede Rückforderung startet mit einem dokumentierten Anspruch: Forderung per E-Mail/Brief an die Plattform mit Frist, dazu die Zahlungsbelege. Die (absehbare) Ablehnung oder Nichtreaktion ist dann der Nachweis für Bank, Anzeige und Anwalt. Wer nur telefoniert, hat am Ende keine Beweise — und bei Zahlungsdienstleistern entscheiden Belege über Warteschlangen und Erfolg.</p>",
+            ),
         ],
         "source": "insights-de-online-betrug-geld-zurueckfordern",
     },
@@ -521,6 +635,22 @@ GUIDES = [
             ("../anlagebetrug-anwalt/", "Anlagebetrug Anwalt"),
             ("../krypto-betrug-geld-zurueck/", "Krypto-Betrug: Geld zurück"),
         ],
+        "extra_sections": [
+            (
+                "Die Regulierungs-Prüfung Schritt für Schritt",
+                "<ol>"
+                "<li>Domain notieren — exakt so, wie sie in der Adresszeile steht</li>"
+                "<li>In der Unternehmensdatenbank der BaFin suchen (und bei FMA/FINMA, wenn AT/CH behauptet wird)</li>"
+                "<li>Treffer prüfen: Stimmt die Domain dort hinterlegt? Ein Lizenzname ohne passende Domain ist ein Klon-Indiz</li>"
+                "<li>Warnlisten abgleichen: BaFin-Meldungen, IOSCO I-SCAN</li>"
+                "</ol>"
+                "<p>Vier Klicks, zwei Minuten. Fast jeder aktive Chiringuito-Fall scheitert genau an dieser Prüfung — nur findet sie vor der Zahlung fast niemand statt.</p>",
+            ),
+            (
+                "Psychologie: warum die Muster auch bei Erfahrenen greifen",
+                "<p>Die Kampagnen sind auf Autorität (gefälschte Regulierungslogos), sozialen Beweis (gekaufte Bewertungen) und Verlustaversion („Ihr Gewinn verfällt“) gebaut — drei Auslöser, die unabhängig von Bildung und Beruf wirken. Dazu kommt die Sunk-Cost-Falle: Nach der ersten Zahlung fühlt sich Stoppen wie Verlust an. Das Wissen um diese Mechanik ist kein Makel — es ist der wirksamste Schutz, den es gibt.</p>",
+            ),
+        ],
         "source": "insights-de-anlagebetrug-erkennen",
     },
     {
@@ -570,6 +700,16 @@ GUIDES = [
             ("../krypto-betrug-anwalt/", "Krypto-Betrug Anwalt"),
             ("../anlagebetrug-melden/", "Betrug melden / anzeigen"),
         ],
+        "extra_sections": [
+            (
+                "Was bei sechsstelligen Fällen anders abläuft",
+                "<p>Ermittlungsbehörden bündeln große Fälle schneller, Börsen reagieren auf gut dokumentierte Anfragen eher, und Tracing lohnt sich fast immer. Zugleich steigt die Gefahr des zweiten Zugriffs: Betroffene hoher Verluste werden gezielt von „Recovery-Teams“ kontaktiert, die Details des Falls kennen — die Listen kursieren. Jede unaufgeforderte Hilfsangebot-Nachricht gehört in die Beweismappe, nicht in eine Antwort.</p>",
+            ),
+            (
+                "Die Vermögensfrage: warum Zivilrecht hier neu zählt",
+                "<p>Bei kleinen Beträgen ist Strafverfolgung oft der einzige realistische Weg. Ab sechsstelligen Schäden ändert sich die Rechnung: Existieren identifizierbare Mittäter, Börsen-Berührungspunkte oder Vermögenswerte, können einstweilige Verfügungen und zivilrechtliche Ansprüche wirtschaftlich werden. Die Prüfung dieser Frage — früh, mit der kompletten Transaktionshistorie — entscheidet, welche Optionen überhaupt auf dem Tisch bleiben.</p>",
+            ),
+        ],
         "source": "insights-de-betrug-mit-kryptowaehrung",
     },
     {
@@ -618,6 +758,16 @@ GUIDES = [
             ("../geld-zurueck-broker/", "Geld zurück vom Broker"),
             ("../trading-betrug-geld-zurueck/", "Trading-Betrug: Geld zurück"),
             ("../anlagebetrug-erkennen/", "Anlagebetrug erkennen"),
+        ],
+        "extra_sections": [
+            (
+                "Der Eskalationskalender nach der ersten abgelehnten Auszahlung",
+                "<p><strong>Tag 1–2:</strong> schriftliche Auszahlungsaufforderung mit Frist. <strong>Tag 3–5:</strong> Bank und Kartenherausgeber kontaktieren — Uhren laufen. <strong>Tag 5–10:</strong> Dispute/Rückruf einleiten, Regulierungs-Check der Domain. <strong>Tag 10–14:</strong> Anzeige vorbereiten, Warnlisten-Meldung, bei erheblichem Betrag anwaltliche Prüfung. Wer den Kalender so führt, verliert nichts an die Taktik der Plattform — jede Woche „bitte warten Sie“ ist eine gewonnene Woche für die Gegenseite.</p>",
+            ),
+            (
+                "„Compliance-Prüfung“, „AML“, „Konto im Review“ — was dahintersteckt",
+                "<p>Diese Begriffe wirken offiziell, sind im Scam-Kontext aber Skript: Echte Prüfungen enden mit einer Entscheidung und einer Begründung, nicht mit neuen Gebühren. Testfrage an den Support: „Nennen Sie mir die Rechtsgrundlage und das voraussichtliche Abschlussdatum schriftlich.“ Echte Abteilungen antworten darauf. Skripte wiederholen sich — und genau diese Wiederholung ist das Dokument, das Bank und Anwalt brauchen.</p>",
+            ),
         ],
         "source": "insights-de-broker-auszahlung-problem",
     },
@@ -674,6 +824,23 @@ GUIDES = [
             ("../anlagebetrug-geld-zurueck/", "Anlagebetrug: Geld zurück"),
             ("../broker-auszahlung-problem/", "Broker Auszahlung Problem"),
         ],
+        "extra_sections": [
+            (
+                "Warum die „Recovery-Branche“ Ihre Daten hat",
+                "<p>Opferlisten werden verkauft und weiterverkauft. Tage nach einem Verlust rufen „Spezialisten“ an, die Name, Plattform und sogar den Betrag kennen — das fühlt sich nach Legitimität an, ist aber nur der Beleg einer geleakten Datenbank. Ein Teil dieser Angebote stammt von derselben Tätergruppe im zweiten Kostüm. Regel eins daher: Wer Sie unaufgefordert kontaktiert, um Ihr Geld zurückzuholen, gehört geprüft wie der Broker selbst.</p>",
+            ),
+            (
+                "Der Fünf-Fragen-Test für jedes Rückhol-Angebot",
+                "<ol>"
+                "<li>Kontaktaufnahme von deren Seite? Stärkster einzelner Prädiktor für Betrug.</li>"
+                "<li>Erfolgsgarantie oder Prozentversprechen? Kein seriöser Profi macht das.</li>"
+                "<li>Zahlung vor Arbeitsbeginn — besonders Krypto, Gutscheine, Überweisung?</li>"
+                "<li>Unabhängig verifizierbar: Anwaltsregister, Handelsregister, öffentliche Rufnummer?</li>"
+                "<li>Rat, Bank oder Polizei nicht einzuschalten? Das ist Isolation — mit Absicht.</li>"
+                "</ol>"
+                "<p>Eine falsche Antwort ist eine Warnung. Zwei sind eine Entscheidung.</p>",
+            ),
+        ],
         "source": "insights-de-geld-zurueck-broker",
     },
     {
@@ -722,6 +889,16 @@ GUIDES = [
             ("../broker-auszahlung-problem/", "Broker Auszahlung Problem"),
             ("../geld-zurueck-broker/", "Geld zurück vom Broker"),
         ],
+        "extra_sections": [
+            (
+                "Die Bonus-Klausel im Original: worauf Sie achten müssen",
+                "<p>Suchen Sie in den Bedingungen nach: Mindesthandelsvolumen vor Auszahlung (oft als Multiplikator von Einzahlung + Bonus), Auszahlungssperren bei „aktivem Bonus“, Klauseln, die Gewinne bei Bonus-Storno streichen, und Passagen, die der Plattform einseitige Änderungen erlauben. Screenshot der Bedingungen mit Datum — bei Klons ändern sich diese Seiten, sobald Beschwerden kommen. Der Vergleich Ihrer Version mit der aktuellen kann selbst schon Beweiswert haben.</p>",
+            ),
+            (
+                "Warum regulierte Anbieter so nicht arbeiten dürfen",
+                "<p>In der EU sind Retail-Hebel gedeckelt, Bonus-Anreize für CFD an Privatkunden seit Jahren verboten, und Auszahlungsbedingungen müssen transparent sein. Eine Plattform, die mit hohem Bonus wirbt, Hebel von 1:500 anbietet und Auszahlungen an Umsatz kettet, positioniert sich damit faktisch außerhalb des EU-Regulierungsrahmens — das ist keine Grauzone, sondern ein Befund. Diese Feststellung gehört in jede Beschwerde bei Bank, BaFin-Meldung und Anzeige.</p>",
+            ),
+        ],
         "source": "insights-de-bonusrfalle-hebelprodukte",
     },
 ]
@@ -756,7 +933,8 @@ def page_html(g: dict) -> str:
         f"<details{' open' if i == 0 else ''}><summary>{escape(q)}</summary><p>{escape(a)}</p></details>"
         for i, (q, a) in enumerate(g["faqs"])
     )
-    sections = "\n".join(f"<h2>{escape(h)}</h2>\n{body}" for h, body in g["sections"])
+    all_sections = list(g["sections"]) + list(g.get("extra_sections", []))
+    sections = "\n".join(f"<h2>{escape(h)}</h2>\n{body}" for h, body in all_sections)
     related = "\n".join(f'        <a href="{href}">{label}</a>' for href, label in g["related"])
     graph = {
         "@context": "https://schema.org",
@@ -973,6 +1151,8 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "index.html").write_text(hub_html(), encoding="utf-8")
     print("Wrote de/insights/index.html")
+    from depth_long import attach
+    attach(GUIDES, "de")
     for g in GUIDES:
         dest = OUT / g["slug"]
         dest.mkdir(parents=True, exist_ok=True)
