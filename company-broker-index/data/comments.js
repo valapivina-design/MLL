@@ -22750,47 +22750,6 @@ window.SBL_COMMENTS = {
       "importantLoss": false
     }
   ],
-  "coinhubx-review": [
-    {
-      "name": "Owen Bailey",
-      "initials": "OB",
-      "country": "Belgium",
-      "date": "2026-10-15",
-      "title": "Belastingfee gevraagd eerst (Coinhubx)",
-      "text": "Gestart op een Instagram-formulier na een kaartstorting. Dit was onder de naam Coinhubx. Ze toonden winst, maar hielden zo’n close to $50,000 achter voor een nieuwe heffing. Heeft een vertrouwelijke beoordeling nog zin?",
-      "lang": "nl",
-      "askHelp": true,
-      "importantLoss": true,
-      "support": {
-        "date": "2026-10-16",
-        "text": "Dank voor uw bericht. Beschrijf storting, mislukte opname en ticket-IDs; we toetsen dat aan openbare bronnen.",
-        "ctaLabel": "Neem contact op voor een consult →",
-        "ctaHref": "../index.html#contact"
-      }
-    },
-    {
-      "name": "Johan Cohen",
-      "initials": "JC",
-      "country": "Romania",
-      "date": "2026-09-30",
-      "title": "Am capturi — fără retragere / Coinhubx",
-      "text": "Am depus prin un chat de recovery cu un transfer crypto. Am chat, chitanțe și ID-uri de referință. (Coinhubx) Puteți privi dosarul în liniște?",
-      "lang": "ro",
-      "askHelp": true,
-      "importantLoss": false
-    },
-    {
-      "name": "Marco García",
-      "initials": "MG",
-      "country": "France",
-      "date": "2026-07-19",
-      "title": "Urgent : fonds coincés en “vérification” · virement bancaire",
-      "text": "Sur un desk Telegram, tout paraissait normal après le virement bancaire. Les retraits se sont arrêtés ; le chat recyclait la même liste. Présenté comme Coinhubx. Y a-t-il une prochaine étape concrète ?",
-      "lang": "fr",
-      "askHelp": true,
-      "importantLoss": false
-    }
-  ],
   "zinzenova-review": [
     {
       "name": "Amira Baptiste",

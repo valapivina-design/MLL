@@ -23,6 +23,7 @@ COMMENTS_JS = ROOT / "company-broker-index" / "data" / "comments.js"
 OUT_DIR = ROOT / "company-broker-index" / "reviews"
 SITE = "https://mikelevylaw.com"
 YEAR = date.today().year
+REMOVED_SLUGS = {"coinhubx-review"}
 DATE_LABEL = date.today().strftime("%B %Y")
 FORMCARRY = "https://formcarry.com/s/vb0cjK_9y7T"
 
@@ -1084,7 +1085,7 @@ def main() -> None:
     written = 0
     for b in brokers:
         slug = b.get("slug")
-        if not slug:
+        if not slug or slug in REMOVED_SLUGS:
             continue
         # sanitize path segment
         safe = re.sub(r"[^a-zA-Z0-9._-]+", "-", slug).strip("-")

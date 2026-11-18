@@ -15233,28 +15233,6 @@ window.SBL_BROKERS = [
     "trustpilot": null
   },
   {
-    "slug": "coinhubx-review",
-    "name": "Coinhubx",
-    "domain": "",
-    "tier": "scam",
-    "blurb": "an OSC-warned fake-wallet operation whose name is engineered to borrow the footprint of Coinhub, the legitimate US Bitcoin-ATM operator",
-    "location": "South Korea",
-    "status": "active",
-    "category": "brokers",
-    "caseType": "standard",
-    "risk": "high",
-    "updated": "2026-10-12",
-    "tags": {
-      "regId": "",
-      "regulator": "",
-      "product": "broker",
-      "allegation": "",
-      "assetClass": "",
-      "risk": "high"
-    },
-    "trustpilot": null
-  },
-  {
     "slug": "zinzenova-review",
     "name": "Zinzenova",
     "domain": "",

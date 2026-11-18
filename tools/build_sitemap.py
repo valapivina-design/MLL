@@ -17,6 +17,7 @@ BROKERS_JS = ROOT / "company-broker-index" / "data" / "brokers.js"
 OUT = ROOT / "sitemap.xml"
 CHUNK_DIR = ROOT
 MAX_URLS_PER_FILE = 45000
+REMOVED_SLUGS = {"coinhubx-review"}
 
 
 STATIC_PAGES = [
@@ -115,6 +116,8 @@ def write_html_sitemap(brokers: list[dict]) -> None:
     links = []
     for b in rows:
         slug = b.get("slug") or ""
+        if slug in REMOVED_SLUGS:
+            continue
         name = escape(b.get("name") or slug)
         href = escape(f"reviews/{slug}.html")
         links.append(f'      <li><a href="{href}">{name} Review</a></li>')
@@ -174,7 +177,7 @@ def main() -> None:
     review_entries = []
     for b in brokers:
         slug = b.get("slug")
-        if not slug:
+        if not slug or slug in REMOVED_SLUGS:
             continue
         last = (b.get("updated") or today)[:10]
         loc = f"{SITE}/company-broker-index/reviews/{slug}.html"

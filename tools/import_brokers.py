@@ -510,6 +510,9 @@ def ftx_seed() -> dict:
     }
 
 
+REMOVED_SLUGS = {"coinhubx-review"}
+
+
 def collect_incoming(
     *,
     forensic_path: Path | None,
@@ -658,7 +661,7 @@ def main() -> None:
         if slug not in ordered_slugs:
             ordered_slugs.append(slug)
 
-    brokers = [by_slug[s] for s in ordered_slugs]
+    brokers = [by_slug[s] for s in ordered_slugs if s not in REMOVED_SLUGS]
     write_js_assign(
         brokers_path,
         "window.SBL_BROKERS",
