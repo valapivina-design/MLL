@@ -727,13 +727,12 @@ def page_html(b: dict, comments_db: dict) -> str:
     cls = clones_of(b)
     kw = keywords(b, soft)
     as_of = as_of_label(b)
+    middle = "Clones & Complaints" if soft else "Withdrawals & Recovery"
+    title = f"{n} Review {YEAR} — Is {n} a Scam? {middle}"
     if soft:
-        title = f"{n} Review {YEAR} — Is {n} a Scam? Clones & Complaints | Mike Levy Law"
         desc = f"{n} review ({as_of}): is {n} a scam? Is {n} a legit broker? Clone warnings, complaints, and confidential consultation if funds are stuck."
     else:
-        title = f"{n} Review {YEAR} — Is {n} a Scam? Withdrawals & Recovery | Mike Levy Law"
         desc = f"{n} review ({as_of}): is {n} a scam? Withdrawal problems, fee demands, and confidential options if you cannot get money back."
-    title = clip(title, 70)
     extra = ""
     if als:
         extra += " Also: " + ", ".join(als[:3]) + "."
